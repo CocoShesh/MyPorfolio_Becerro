@@ -85,7 +85,7 @@ const FirstProject = () => {
         </div>
       </div> */}
 
-      <section className="xl:hidden  sm:px-44 sm:pt-44  mt-20">
+      <section className="xl:hidden  sm:px-44 sm:pt-32  mt-20">
         <section
           className="max-sm:pl-5 flex items-center  text-2xl gap-3  mb-10  pt-20"
           id="projects"

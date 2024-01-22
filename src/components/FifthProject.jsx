@@ -46,7 +46,7 @@ const FifthProject = () => {
 
       {/* responsive */}
 
-      <section className="xl:hidden  sm:px-44 sm:pt-44  mt-20">
+      <section className="xl:hidden  sm:px-44 sm:pt-10">
         <div className=" card w-full bg-base-100 shadow-xl ">
           <figure>
             <img
