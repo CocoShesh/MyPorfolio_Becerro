@@ -44,7 +44,7 @@ const About = () => {
           <img
             src="/second_pic.jpg"
             alt=""
-            className="max-w-sm rounded-lg  brightness-75 hover:brightness-100"
+            className="max-w-xs rounded-lg  brightness-75 hover:brightness-100"
           />
 
           <div>
