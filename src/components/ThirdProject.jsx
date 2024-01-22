@@ -50,7 +50,7 @@ const ThirdProject = () => {
         </section>
       </section>
 
-      <section className="xl:hidden  sm:px-44 sm:pt-10 ">
+      <section className="xl:hidden  sm:px-44 sm:pt-10 mt-10 ">
         <div className=" card w-full bg-base-100 shadow-xl ">
           <figure>
             <img src="/preview-2.png" alt="Shoes" className=" object-cover" />
