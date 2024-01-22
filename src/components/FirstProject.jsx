@@ -19,7 +19,7 @@ const FirstProject = () => {
         </section>
         <section className="flex justify-center items-center">
           <img
-            src="/public/first.png"
+            src="/first.png"
             alt=""
             className="w-[600px] h-[350px] object-cover shadow-lg shadow-fuchsia-300 rounded-md"
           />
@@ -98,11 +98,7 @@ const FirstProject = () => {
         </section>
         <div className=" card w-full bg-base-100 shadow-xl ">
           <figure>
-            <img
-              src="/public/first.png"
-              alt="Shoes"
-              className=" object-cover"
-            />
+            <img src="/first.png" alt="Shoes" className=" object-cover" />
           </figure>
           <div className="card-body  ">
             <p className="font-Mono  text-white">Featured Project</p>

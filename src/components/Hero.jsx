@@ -32,7 +32,7 @@ const Hero = () => {
       <div className="hero min-h-screen sm:px-32 font-bold font-Noto">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="./public/profile-pic.png"
+            src="/profile-pic.png"
             alt="profile"
             // className=" rounded-full border-black border-4 brightness-75 hover:brightness-100"
             className="max-w-sm rounded-lg  brightness-75 hover:brightness-100"

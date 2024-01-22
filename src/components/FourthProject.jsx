@@ -45,7 +45,7 @@ const FourthProject = () => {
         </section>
         <section>
           <img
-            src="/public/PREVIEW-3.png"
+            src="/PREVIEW-3.png"
             alt=""
             className="w-[700px] h-[350px] shadow-lg shadow-fuchsia-300 rounded-md"
           />
@@ -54,11 +54,7 @@ const FourthProject = () => {
       <section className="xl:hidden  sm:px-44 sm:pt-44  mt-20">
         <div className=" card w-full bg-base-100 shadow-xl ">
           <figure>
-            <img
-              src="/public/PREVIEW-3.png"
-              alt="Shoes"
-              className=" object-cover"
-            />
+            <img src="/PREVIEW-3.png" alt="Shoes" className=" object-cover" />
           </figure>
           <div className="card-body  ">
             <p className="font-Mono  text-white">Featured Project</p>

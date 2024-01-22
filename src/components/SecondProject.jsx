@@ -35,7 +35,7 @@ const SecondProject = () => {
         </section>
         <section>
           <img
-            src="/public/preview.png"
+            src="/preview.png"
             alt=""
             className="w-[700px] h-[350px] shadow-lg shadow-fuchsia-300 rounded-md"
           />
@@ -45,11 +45,7 @@ const SecondProject = () => {
       <section className="xl:hidden  sm:px-44 sm:pt-44  mt-20">
         <div className=" card w-full bg-base-100 shadow-xl ">
           <figure>
-            <img
-              src="/public/preview.png"
-              alt="Shoes"
-              className=" object-cover"
-            />
+            <img src="/preview.png" alt="Shoes" className=" object-cover" />
           </figure>
           <div className="card-body  ">
             <p className="font-Mono  text-white">Featured Project</p>

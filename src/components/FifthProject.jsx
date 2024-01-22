@@ -7,7 +7,7 @@ const FifthProject = () => {
       <section className=" flex  flex-col mx-auto max-xl:hidden   gap-20  mt-20  px-44 justify-center items-center scroll-smooth">
         <section className="flex ">
           <img
-            src="/public/games-preview.png"
+            src="/games-preview.png"
             alt=""
             className="w-[600px] h-[350px]  shadow-lg shadow-fuchsia-300 rounded-md "
           />
@@ -50,7 +50,7 @@ const FifthProject = () => {
         <div className=" card w-full bg-base-100 shadow-xl ">
           <figure>
             <img
-              src="/public/games-preview.png"
+              src="/games-preview.png"
               alt="Shoes"
               className=" object-cover"
             />

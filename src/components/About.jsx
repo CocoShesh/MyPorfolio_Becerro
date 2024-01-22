@@ -42,7 +42,7 @@ const About = () => {
       <div className="hero  sm:px-32 font-bold font-Noto">
         <div className="hero-content flex-col lg:flex-row gap-20">
           <img
-            src="/public/second_pic.jpg"
+            src="/second_pic.jpg"
             alt=""
             className="max-w-sm rounded-lg  brightness-75 hover:brightness-100"
           />

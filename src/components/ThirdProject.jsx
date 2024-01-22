@@ -7,7 +7,7 @@ const ThirdProject = () => {
       <section className=" flex  flex-col mx-auto max-xl:hidden  gap-20  mt-20  px-44 justify-center items-center scroll-smooth">
         <section className="flex ">
           <img
-            src="/public/preview-2.png"
+            src="/preview-2.png"
             alt=""
             className="w-[600px] h-[350px]  shadow-lg shadow-fuchsia-300 rounded-md "
           />
@@ -53,11 +53,7 @@ const ThirdProject = () => {
       <section className="xl:hidden  sm:px-44 sm:pt-44  mt-20">
         <div className=" card w-full bg-base-100 shadow-xl ">
           <figure>
-            <img
-              src="/public/preview-2.png"
-              alt="Shoes"
-              className=" object-cover"
-            />
+            <img src="/preview-2.png" alt="Shoes" className=" object-cover" />
           </figure>
           <div className="card-body  ">
             <p className="font-Mono  text-white">Featured Project</p>
