@@ -24,7 +24,7 @@ const Header = () => {
           <div className="navbar-start w-[550px]">
             <Link to="main" smooth={true} onClick={scrollToTop}>
               <img
-                src="/public/logo2.png"
+                src="/logo2.png"
                 alt=""
                 className="w-50 h-16 cursor-pointer lg:pl-10"
               />
