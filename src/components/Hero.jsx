@@ -12,7 +12,7 @@ const Hero = () => {
           <p className="text-lg font-Mono pl-3">Hi, my name is</p>
           <h1 className="text-7xl leading-normal text-[#ccd6f6]">
             Glenard Becerro
-          </h1>
+          </h1>g
           <h1 className="text-7xl text-[#8892b0]">Front-End Developer</h1>
           <p className="w-[550px]  text-[#7992b0] pt-7">
             Passion-driven and dedicated to creating websites. I am eager to
