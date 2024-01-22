@@ -8,7 +8,7 @@ const TechStack = () => {
 
       {data?.map((item, index) => (
         <div class="stats bg-[#0a192f] ">
-          <div class="stat-title pr-5  ">
+          <div class="stat-title pr-5  " key={index}>
             {" "}
             <img
               src={item?.src}
