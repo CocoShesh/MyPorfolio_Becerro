@@ -45,51 +45,58 @@ const FourthProject = () => {
             </section>
           </section>
           <section>
-            <img
-              src="/PREVIEW-3.png"
-              alt=""
-              className="w-[600px] h-[350px] shadow-lg shadow-fuchsia-300 rounded-md"
-            />
+            <a
+              href="https://tip-calculator-app-tau.vercel.app/"
+              target="_blank"
+            >
+              <img
+                src="/PREVIEW-3.png"
+                alt=""
+                className="w-[600px] h-[350px] shadow-lg shadow-fuchsia-300 rounded-md"
+              />
+            </a>
           </section>
         </section>
       </section>{" "}
       <section className="xl:hidden  sm:px-36 sm:pt-10  mt-10 ">
-        <div className=" card mx-5 bg-[#112240] shadow-xl rounded ">
-          <figure>
-            <img src="/PREVIEW-3.png" alt="Shoes" className=" object-cover" />
-          </figure>
-          <div className="card-body  ">
-            <p className="font-Mono  text-[#64FFDA]">Featured Project</p>
-            <h1 className=" font-Noto text-3xl font-bold  text-[#30d5da]">
-              Tip Calculator
-            </h1>
-            <p className=" text-[#64FFDA]">
-              A tip calculator helps determine the appropriate gratuity for a
-              bill. Users input the total amount, select a tip percentage, and
-              specify the number of people splitting the bill.
-            </p>
-            <ul className="flex  gap-5 font-Mono uppercase  mt-5 text-sm text-[#64FFDA] ">
-              <li>Html</li>
-              <li>Css</li>
-              <li>Javascript</li>
-              <li>Api</li>
-            </ul>
-            <section className="flex gap-5   text-2xl text-[#64FFDA]">
-              <a
-                href="https://github.com/CocoShesh/tip-calculator-app-main"
-                target="_blank"
-              >
-                <PiGithubLogoBold />
-              </a>
-              <a
-                href="https://tip-calculator-app-tau.vercel.app/"
-                target="_blank"
-              >
-                <FaRegShareFromSquare />
-              </a>
-            </section>
+        <a href="https://tip-calculator-app-tau.vercel.app/" target="_blank">
+          <div className=" card mx-5 bg-[#112240] shadow-xl rounded cursor-pointer ">
+            <figure>
+              <img src="/PREVIEW-3.png" alt="Shoes" className=" object-cover" />
+            </figure>
+            <div className="card-body  ">
+              <p className="font-Mono  text-[#64FFDA]">Featured Project</p>
+              <h1 className=" font-Noto text-3xl font-bold  text-[#30d5da]">
+                Tip Calculator
+              </h1>
+              <p className=" text-[#64FFDA]">
+                A tip calculator helps determine the appropriate gratuity for a
+                bill. Users input the total amount, select a tip percentage, and
+                specify the number of people splitting the bill.
+              </p>
+              <ul className="flex  gap-5 font-Mono uppercase  mt-5 text-sm text-[#64FFDA] ">
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+                <li>Api</li>
+              </ul>
+              <section className="flex gap-5   text-2xl text-[#64FFDA]">
+                <a
+                  href="https://github.com/CocoShesh/tip-calculator-app-main"
+                  target="_blank"
+                >
+                  <PiGithubLogoBold />
+                </a>
+                <a
+                  href="https://tip-calculator-app-tau.vercel.app/"
+                  target="_blank"
+                >
+                  <FaRegShareFromSquare />
+                </a>
+              </section>
+            </div>
           </div>
-        </div>
+        </a>
       </section>
     </>
   );
