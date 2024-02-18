@@ -47,7 +47,7 @@ const FifthProject = () => {
       {/* responsive */}
 
       <section className="xl:hidden  sm:px-44 sm:pt-10 mt-10">
-        <div className=" card w-full bg-base-100 shadow-xl ">
+        <div className=" card mx-5 bg-[#112240] shadow-xl ">
           <figure>
             <img
               src="/games-preview.png"
@@ -56,20 +56,20 @@ const FifthProject = () => {
             />
           </figure>
           <div className="card-body  ">
-            <p className="font-Mono  text-white">Featured Project</p>
-            <h1 className=" font-Noto text-3xl font-bold  text-white ">
+            <p className="font-Mono  text-[#64FFDA]">Featured Project</p>
+            <h1 className=" font-Noto text-3xl font-bold  text-[#30d5da] ">
               Games Store
             </h1>
-            <p className=" text-white">
+            <p className=" text-[#64FFDA]">
               Discover the latest releases and timeless classics. Get ready to
               embark on thrilling journeys and experience gaming like never
-              before. Start exploring and elevate your gaming experience today!
+              before.
             </p>
-            <ul className="flex justify-end gap-5 font-Mono uppercase  text-white ">
+            <ul className="flex  gap-5 font-Mono uppercase  mt-5 text-sm text-[#64FFDA] ">
               <li>React Js</li>
               <li>Tailwind Css</li>
             </ul>
-            <section className="flex gap-5 justify-end mt-5 text-2xl">
+            <section className="flex gap-5   text-2xl text-[#82b2d1]">
               <a href=" https://github.com/CocoShesh/Game-App" target="_blank">
                 {" "}
                 <PiGithubLogoBold />
