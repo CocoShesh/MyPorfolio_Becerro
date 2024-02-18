@@ -37,12 +37,13 @@ const SecondProject = () => {
               </a>
             </section>
           </section>
-
-          <img
-            src="/preview.png"
-            alt=""
-            className="w-[600px] h-[350px] shadow-lg shadow-fuchsia-300 rounded-md"
-          />
+          <a href="https://movie-cinema-liart.vercel.app/" target="_blank">
+            <img
+              src="/preview.png"
+              alt=""
+              className="w-[600px] h-[350px] shadow-lg shadow-fuchsia-300 rounded-md"
+            />
+          </a>
         </section>
       </section>
 
