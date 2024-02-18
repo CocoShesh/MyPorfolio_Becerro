@@ -51,26 +51,26 @@ const ThirdProject = () => {
       </section>
 
       <section className="xl:hidden  sm:px-44 sm:pt-10 mt-10 ">
-        <div className=" card w-full bg-base-100 shadow-xl ">
+        <div className=" card bg-[#112240] mx-5 shadow-xl ">
           <figure>
             <img src="/preview-2.png" alt="Shoes" className=" object-cover" />
           </figure>
           <div className="card-body  ">
-            <p className="font-Mono  text-white">Featured Project</p>
-            <h1 className=" font-Noto text-3xl font-bold  text-white ">
+            <p className="font-Mono  text-[#30d5da]">Featured Project</p>
+            <h1 className=" font-Noto text-3xl font-bold  text-[#64FFDA] ">
               Corny Jokes Generator
             </h1>
-            <p className=" text-white">
+            <p className=" text-[#64FFDA]">
               This app creates light-hearted, cheesy jokes to brighten your day.
               Simply click a button and get a dose of laughter!
             </p>
-            <ul className="flex justify-end gap-5 font-Mono uppercase  text-white ">
+            <ul className="flex gap-5 font-Mono uppercase  text-sm mt-5 text-[#64FFDA] ">
               <li>Html</li>
               <li>Css</li>
               <li>Javascript</li>
               <li>Api</li>
             </ul>
-            <section className="flex gap-5 justify-end mt-5 text-2xl">
+            <section className="flex gap-5  text-2xl text-[#82b2d1]">
               <a
                 href=" https://github.com/CocoShesh/Corny-Jokes-Generator"
                 target="_blank"
