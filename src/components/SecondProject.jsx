@@ -43,26 +43,25 @@ const SecondProject = () => {
       </section>
 
       <section className="xl:hidden  sm:px-44 sm:pt-10 mt-10">
-        <div className=" card w-full bg-[#000b1a] shadow-xl ">
+        <div className=" card mx-5 bg-[#112240] shadow-xl  rounded">
           <figure>
             <img src="/preview.png" alt="Shoes" className=" object-cover" />
           </figure>
           <div className="card-body  ">
-            <p className="font-Mono  text-white">Featured Project</p>
-            <h1 className=" font-Noto text-3xl font-bold  text-white ">
+            <p className="font-Mono  text-[#30d5da]">Featured Project</p>
+            <h1 className=" font-Noto text-3xl font-bold text-[#64FFDA] ">
               Cinema
             </h1>
-            <p>
+            <p className=" text-[#64FFDA]">
               Welcome to Cinema! Immerse yourself in a world of cinematic
               wonders, where stories come alive and emotions unfold on the big
-              screen. Join us for an unforgettable experience filled with
-              laughter, tears, and edge-of-your-seat moments.
+              screen.
             </p>
-            <ul className="flex justify-end gap-5 font-Mono uppercase  text-white ">
+            <ul className="flex  gap-5 font-Mono uppercase text-sm  mt-5 text-[#64FFDA] ">
               <li>React Js</li>
               <li>Tailwind Css</li>
             </ul>
-            <section className="flex gap-5 justify-end mt-5 text-2xl">
+            <section className="flex gap-5   text-2xl  text-[#82b2d1]">
               <a
                 href="https://github.com/CocoShesh/MovieCinema"
                 target="_blank"
