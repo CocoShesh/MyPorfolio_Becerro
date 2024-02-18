@@ -6,7 +6,7 @@ const FirstProject = () => {
     <>
       <section
         className="flex items-center max-xl:hidden  sm:px-36 gap-3 text-3xl py-16 max-sm:pl-5 "
-        id="about"
+        id="Projects"
       >
         <section className=" flex gap-3 2xl:mx-auto">
           <span className=" font-Mono"> 03. </span>
@@ -15,12 +15,15 @@ const FirstProject = () => {
           </h1>
         </section>
       </section>
+
       <section className="flex justify-center max-xl:hidden items-center  px-44 ">
-        <img
-          src="/first.png"
-          alt=""
-          className="w-[600px] h-[350px] object-cover shadow-lg shadow-fuchsia-300 rounded-md"
-        />
+        <a href="https://furniture-shop-hbae.vercel.app/" target="_blank">
+          <img
+            src="/first.png"
+            alt=""
+            className="w-[600px] h-[350px] object-fill shadow-lg shadow-fuchsia-300 rounded-md"
+          />
+        </a>
         <section className=" text-right relative w-[600px] 2xl:w-[500px] h-auto ">
           <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
           <h1 className=" font-Noto text-3xl font-bold text-[#64ffda]">
