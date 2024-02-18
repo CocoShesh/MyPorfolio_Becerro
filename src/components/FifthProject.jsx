@@ -11,12 +11,12 @@ const FifthProject = () => {
             alt=""
             className="w-[600px] h-[350px]  shadow-lg shadow-fuchsia-300 rounded-md "
           />
-          <section className=" text-right relative w-[500px] h-auto">
+          <section className=" text-right relative w-[600px] 2xl:w-[550px] h-auto">
             <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
             <h1 className=" font-Noto text-3xl font-bold text-[#64ffda]">
               Games Store
             </h1>
-            <section className="w-[500px] h-[130px] bg-[#112240] mt-5 p-5 absolute -left-24 font-Mono">
+            <section className="w-[600px] h-[130px] bg-[#112240] mt-5 p-5 absolute right-0 font-Mono">
               <p className="text-justify font-bold font-Mono  text-orange-300">
                 Discover the latest releases and timeless classics. Get ready to
                 embark on thrilling journeys and experience gaming like never
