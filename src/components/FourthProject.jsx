@@ -5,7 +5,7 @@ const FourthProject = () => {
   return (
     <>
       <section className=" flex justify-center  mt-20  mx-auto  max-xl:hidden  gap-20   px-44 scroll-smooth">
-        <section className=" text-left relative w-[500px] h-auto">
+        <section className=" text-left relative  h-auto">
           <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
           <h1 className=" font-Noto text-3xl font-bold text-[#64ffda]">
             Tip Calculator
@@ -52,30 +52,27 @@ const FourthProject = () => {
         </section>
       </section>{" "}
       <section className="xl:hidden  sm:px-44 sm:pt-10  mt-10 ">
-        <div className=" card w-full bg-base-100 shadow-xl ">
+        <div className=" card mx-5 bg-[#112240] shadow-xl ">
           <figure>
             <img src="/PREVIEW-3.png" alt="Shoes" className=" object-cover" />
           </figure>
           <div className="card-body  ">
-            <p className="font-Mono  text-white">Featured Project</p>
-            <h1 className=" font-Noto text-3xl font-bold  text-white ">
+            <p className="font-Mono  text-[#64FFDA]">Featured Project</p>
+            <h1 className=" font-Noto text-3xl font-bold  text-[#30d5da]">
               Tip Calculator
             </h1>
-            <p className=" text-white">
+            <p className=" text-[#64FFDA]">
               A tip calculator helps determine the appropriate gratuity for a
               bill. Users input the total amount, select a tip percentage, and
-              specify the number of people splitting the bill. The calculator
-              computes the tip, adds it to the bill, and divides the total among
-              the group. It simplifies fair tip calculation when dining out or
-              sharing expenses.
+              specify the number of people splitting the bill.
             </p>
-            <ul className="flex justify-end gap-5 font-Mono uppercase  text-white ">
+            <ul className="flex  gap-5 font-Mono uppercase  mt-5 text-sm text-[#64FFDA] ">
               <li>Html</li>
               <li>Css</li>
               <li>Javascript</li>
               <li>Api</li>
             </ul>
-            <section className="flex gap-5 justify-end mt-5 text-2xl">
+            <section className="flex gap-5   text-2xl text-[#64FFDA]">
               <a
                 href="https://github.com/CocoShesh/tip-calculator-app-main"
                 target="_blank"
