@@ -7,7 +7,7 @@ const Education = () => {
         <section className="max-w-screen  flex flex-col  justify-center">
           <section
             className="flex  sm:px-36 gap-3 text-3xl py-16 max-sm:pl-5 "
-            id="about"
+            id="education"
           >
             <section className=" flex gap-3 2xl:mx-auto">
               <span className=" font-Mono"> 02. </span>
