@@ -96,7 +96,7 @@ const FirstProject = () => {
             Some Things I’ve Built{" "}
           </h1>{" "}
         </section>
-        <div className=" card w-full bg-base-100 shadow-xl ">
+        <div className=" card w-full bg-[#ff8c00] shadow-xl ">
           <figure>
             <img src="/first.png" alt="Shoes" className=" object-cover" />
           </figure>
