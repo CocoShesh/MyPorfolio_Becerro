@@ -17,18 +17,18 @@ const FirstProject = () => {
             <div className="border-[1px] border-[#233554] w-72 h-0 "></div>
           </section>
         </section>
-        <section className="flex justify-center items-center">
+        <section className="flex justify-center items-center  ">
           <img
             src="/first.png"
             alt=""
             className="w-[600px] h-[350px] object-cover shadow-lg shadow-fuchsia-300 rounded-md"
           />
-          <section className=" text-right relative w-[500px] h-auto">
+          <section className=" text-right relative w-[600px] 2xl:w-[500px] h-auto ">
             <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
             <h1 className=" font-Noto text-3xl font-bold text-[#64ffda]">
               Furniture Shop
             </h1>
-            <section className="w-[600px] h-[150px] bg-[#112240] mt-5 px-4 py-5 absolute -left-44  font-Mono font-bold  text-justify text-orange-200 text-[15px]">
+            <section className="w-[600px] h-[150px] bg-[#112240] mt-5 px-4 py-5 absolute right-0 font-Mono font-bold  text-justify text-orange-200 text-[15px]">
               <p>
                 A virtual furniture shop providing an extensive collection of
                 handcrafted furniture pieces, blending modern aesthetics with
@@ -87,7 +87,7 @@ const FirstProject = () => {
 
       <section className="xl:hidden  sm:px-44 sm:pt-32  mt-20">
         <section
-          className="max-sm:pl-5 flex items-center  text-2xl gap-3   mb-10  pt-20"
+          className="max-sm:pl-5 flex items-center  text-2xl gap-3   mb-10  pt-20 "
           id="projects"
         >
           <span className=" font-Mono"> 03. </span>{" "}
@@ -96,37 +96,42 @@ const FirstProject = () => {
             Some Things I’ve Built{" "}
           </h1>{" "}
         </section>
-        <div className=" card mx-5 bg-[#112240] shadow-xl  rounded">
-          <figure>
-            <img src="/first.png" alt="Shoes" className=" object-cover" />
-          </figure>
-          <div className="card-body  ">
-            <p className="font-Mono  text-[#30d5da]">Featured Project</p>
-            <h1 className=" font-Noto text-3xl font-bold  text-[#64FFDA] ">
-              Furniture Shop
-            </h1>
-            <p className=" text-[#64FFDA]">
-              A virtual furniture shop providing an extensive collection of
-              handcrafted furniture pieces, blending modern aesthetics with
-              timeless craftsmanship.
-            </p>
-            <ul className="flex gap-5 font-Mono uppercase  text-sm mt-5 text-[#82b2d1] ">
-              <li>React Js</li>
-              <li>Tailwind Css</li>
-            </ul>
-            <section className="flex gap-5 text-2xl  text-[#82b2d1]">
-              <a
-                href=" https://github.com/CocoShesh/Furniture-shop"
-                target="_blank"
-              >
-                <PiGithubLogoBold />
-              </a>
-              <a href="https://furniture-shop-hbae.vercel.app/" target="_blank">
-                <FaRegShareFromSquare />
-              </a>
-            </section>
+        <a href="https://furniture-shop-hbae.vercel.app/" target="_blank">
+          <div className=" card mx-5 bg-[#112240] shadow-xl  rounded cursor-pointer">
+            <figure>
+              <img src="/first.png" alt="Shoes" className=" object-cover" />
+            </figure>
+            <div className="card-body  ">
+              <p className="font-Mono  text-[#30d5da]">Featured Project</p>
+              <h1 className=" font-Noto text-3xl font-bold  text-[#64FFDA] ">
+                Furniture Shop
+              </h1>
+              <p className=" text-[#64FFDA]">
+                A virtual furniture shop providing an extensive collection of
+                handcrafted furniture pieces, blending modern aesthetics with
+                timeless craftsmanship.
+              </p>
+              <ul className="flex gap-5 font-Mono uppercase  text-sm mt-5 text-[#82b2d1] ">
+                <li>React Js</li>
+                <li>Tailwind Css</li>
+              </ul>
+              <section className="flex gap-5 text-2xl  text-[#82b2d1]">
+                <a
+                  href=" https://github.com/CocoShesh/Furniture-shop"
+                  target="_blank"
+                >
+                  <PiGithubLogoBold />
+                </a>
+                <a
+                  href="https://furniture-shop-hbae.vercel.app/"
+                  target="_blank"
+                >
+                  <FaRegShareFromSquare />
+                </a>
+              </section>
+            </div>
           </div>
-        </div>
+        </a>
       </section>
     </>
   );
