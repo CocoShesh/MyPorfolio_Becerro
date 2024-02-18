@@ -5,7 +5,7 @@ const FirstProject = () => {
   return (
     <>
       <section
-        className=" flex  flex-col mx-auto max-xl:hidden  gap-20   h-screen  px-44 scroll-smooth"
+        className=" flex  flex-col mx-auto max-xl:hidden  gap-20  mb-20  px-44 scroll-smooth"
         id="Projects"
       >
         <section className="text-2xl w-[700px]  pt-32 ">
@@ -96,23 +96,23 @@ const FirstProject = () => {
             Some Things I’ve Built{" "}
           </h1>{" "}
         </section>
-        <div className=" card w-full bg-[#ff8c00] shadow-xl ">
+        <div className=" card w-full bg-[#112240] shadow-xl ">
           <figure>
             <img src="/first.png" alt="Shoes" className=" object-cover" />
           </figure>
           <div className="card-body  ">
-            <p className="font-Mono  text-white">Featured Project</p>
+            <p className="font-Mono  text-[#30d5da]">Featured Project</p>
             <h1 className=" font-Noto text-3xl font-bold  text-white ">
               Furniture Shop
             </h1>
-            <p className=" text-white">
+            <p className=" text-[#82b2d1]">
               A virtual furniture shop providing an extensive collection of
               handcrafted furniture pieces, blending modern aesthetics with
               timeless craftsmanship. Immerse yourself in a world of quality and
               comfort, where each piece reflects our commitment to exceptional
               design and functionality.
             </p>
-            <ul className="flex justify-end gap-5 font-Mono uppercase  text-white ">
+            <ul className="flex justify-end gap-5 font-Mono uppercase  text-[#82b2d1] ">
               <li>React Js</li>
               <li>Tailwind Css</li>
             </ul>
