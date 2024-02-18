@@ -11,7 +11,7 @@ const ThirdProject = () => {
             alt=""
             className="w-[600px] h-[350px] object-cover  shadow-lg shadow-fuchsia-300 rounded-md "
           />
-          <section className=" text-right relative  w-[600px] 2xl:w-[550px] h-auto">
+          <section className=" text-right relative  w-[600px] 2xl:w-[500px] h-auto">
             <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
             <h1 className=" font-Noto text-3xl font-bold text-[#64ffda]">
               Corny Jokes Generator
@@ -51,8 +51,8 @@ const ThirdProject = () => {
         </section>
       </section>
 
-      <section className="xl:hidden  sm:px-44 sm:pt-10 mt-10 ">
-        <div className=" card bg-[#112240] mx-5 shadow-xl ">
+      <section className="xl:hidden  sm:px-36 sm:pt-10 mt-10  ">
+        <div className=" card bg-[#112240] mx-5 shadow-xl  rounded">
           <figure>
             <img src="/preview-2.png" alt="Shoes" className=" object-cover" />
           </figure>
