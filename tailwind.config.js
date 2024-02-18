@@ -15,7 +15,9 @@ export default {
       shadow: {
         custom: "2px 2px 1px 1px",
       },
-     
+      screens: {
+        xs: "320px",
+      },
     },
   },
   plugins: [require("daisyui")],
