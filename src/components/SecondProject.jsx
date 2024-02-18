@@ -4,7 +4,7 @@ import { FaRegShareFromSquare } from "react-icons/fa6";
 const SecondProject = () => {
   return (
     <>
-      <section className=" flex  mt-10  mx-auto  max-xl:hidden   gap-20   px-44 scroll-smooth">
+      <section className=" flex  justify-center mt-10  mx-auto  max-xl:hidden   gap-20   px-44 scroll-smooth">
         <section className=" text-left relative w-[500px] h-auto">
           <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
           <h1 className=" font-Noto text-3xl font-bold text-[#64ffda]">
@@ -43,7 +43,7 @@ const SecondProject = () => {
       </section>
 
       <section className="xl:hidden  sm:px-44 sm:pt-10 mt-10">
-        <div className=" card w-full bg-base-100 shadow-xl ">
+        <div className=" card w-full bg-[#000b1a] shadow-xl ">
           <figure>
             <img src="/preview.png" alt="Shoes" className=" object-cover" />
           </figure>
