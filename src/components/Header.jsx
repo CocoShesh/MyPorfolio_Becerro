@@ -65,7 +65,7 @@ const Header = () => {
               <div
                 tabIndex="0"
                 role="button"
-                className="btn btn-ghost lg:hidden"
+                className="btn btn-ghost pr-0 lg:hidden"
                 onClick={toggleDrawer}
               >
                 <svg
