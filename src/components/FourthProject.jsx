@@ -6,7 +6,7 @@ const FourthProject = () => {
     <>
       <section className=" flex justify-center  mt-20  mx-auto  max-xl:hidden  gap-20   px-44 scroll-smooth">
         <section className="flex justify-center items-center ">
-          <section className=" text-left relative w-[600px] 2xl:w-[550px] h-auto ">
+          <section className=" text-left relative w-[600px] 2xl:w-[500px] h-auto ">
             <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
             <h1 className=" font-Noto text-3xl font-bold text-[#64ffda]">
               Tip Calculator
@@ -53,8 +53,8 @@ const FourthProject = () => {
           </section>
         </section>
       </section>{" "}
-      <section className="xl:hidden  sm:px-44 sm:pt-10  mt-10 ">
-        <div className=" card mx-5 bg-[#112240] shadow-xl ">
+      <section className="xl:hidden  sm:px-36 sm:pt-10  mt-10 ">
+        <div className=" card mx-5 bg-[#112240] shadow-xl rounded ">
           <figure>
             <img src="/PREVIEW-3.png" alt="Shoes" className=" object-cover" />
           </figure>
