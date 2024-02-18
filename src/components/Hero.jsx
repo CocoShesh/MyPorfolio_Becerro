@@ -35,7 +35,7 @@ const Hero = () => {
             src="/profile-pic.png"
             alt="profile"
             // className=" rounded-full border-black border-4 brightness-75 hover:brightness-100"
-            className=" max-w-xs xs:max-w-auto  rounded-lg  brightness-75 hover:brightness-100"
+            className="sm:max-w-sm xs:max-w-auto  rounded-lg  brightness-75 hover:brightness-100"
           />
           <div>
             <p className="text-3xl  font-Mono pl-3">Hi, my name is</p>
