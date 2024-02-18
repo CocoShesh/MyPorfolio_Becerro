@@ -4,7 +4,7 @@ import { FaRegShareFromSquare } from "react-icons/fa6";
 const FourthProject = () => {
   return (
     <>
-      <section className=" flex  mt-20  mx-auto  max-xl:hidden  gap-20   px-44 scroll-smooth">
+      <section className=" flex justify-center  mt-20  mx-auto  max-xl:hidden  gap-20   px-44 scroll-smooth">
         <section className=" text-left relative w-[500px] h-auto">
           <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
           <h1 className=" font-Noto text-3xl font-bold text-[#64ffda]">
