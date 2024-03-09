@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <>
       <Headroom>
-        <div className="navbar bg-[#0a192f] border-b border-slate-800 h-20 ">
+        <div className="navbar bg-[#0a192f] border-b  border-slate-800 h-20 ">
           <div className="navbar-start max-w-screen 2xl:w-2xl">
             <Link to="main" smooth={true} onClick={scrollToTop}>
               <img

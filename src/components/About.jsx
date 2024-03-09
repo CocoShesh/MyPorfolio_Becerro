@@ -1,9 +1,16 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <section
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
         className="flex items-center sm:px-36 gap-3 text-3xl py-16 max-sm:pl-5 "
         id="about"
       >
@@ -15,12 +22,19 @@ const About = () => {
       <div className="hero  sm:px-32  font-bold font-Noto">
         <div className="hero-content flex-col lg:flex-row gap-20 ">
           <img
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
             src="/second_pic.jpg"
             alt=""
             className="sm:max-w-sm xs:max-w-auto   rounded-lg  brightness-75 hover:brightness-100"
           />
 
-          <div>
+          <div
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <p className="text-lg font-Noto text-justify text-[#67738e]">
               As a fourth-year student with a foundational understanding of web
               development, seeking an internship opportunity where I can apply

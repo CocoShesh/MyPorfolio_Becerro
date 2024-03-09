@@ -1,17 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { PiGithubLogoBold } from "react-icons/pi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const SecondProject = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <section className=" flex  items-center justify-center mt-10  mx-auto  max-xl:hidden   gap-20   px-44 scroll-smooth">
         <section className="flex justify-center items-center ">
-          <section className=" text-left relative w-[600px] 2xl:w-[500px] h-auto ">
+          <section
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            className=" text-left relative w-[600px] 2xl:w-[500px] h-auto "
+          >
             <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
             <h1 className=" font-Noto text-3xl font-bold text-[#64ffda]">
               Cinema
             </h1>
-            <section className="w-[600px] h-[160px] bg-[#112240] mt-5 p-5  absolute left-0 font-Mono  text-orange-200 text-justify text-[15px] font-bold">
+            <section className="w-[600px] h-[160px] z-10 bg-[#112240] mt-5 p-5  absolute left-0 font-Mono  text-orange-200 text-justify text-[15px] font-bold">
               <p>
                 Welcome to Cinema! Immerse yourself in a world of cinematic
                 wonders, where stories come alive and emotions unfold on the big
@@ -39,6 +49,9 @@ const SecondProject = () => {
           </section>
           <a href="https://movie-cinema-liart.vercel.app/" target="_blank">
             <img
+              data-aos="zoom-in"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
               src="/preview.png"
               alt=""
               className="w-[600px] h-[350px] shadow-lg shadow-fuchsia-300 rounded-md"

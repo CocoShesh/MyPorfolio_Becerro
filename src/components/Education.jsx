@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Education = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <section className="pt-20" id="education flex  ">
@@ -9,7 +14,12 @@ const Education = () => {
             className="flex  sm:px-36 gap-3 text-3xl py-16 max-sm:pl-5 "
             id="education"
           >
-            <section className=" flex gap-3 2xl:mx-auto">
+            <section
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              className=" flex gap-3 2xl:mx-auto"
+            >
               <span className=" font-Mono"> 02. </span>
               <h1 className=" font-Noto font-bold text-[#ccd6f6]">
                 {" "}
@@ -34,7 +44,12 @@ const Education = () => {
                     />
                   </svg>
                 </div>
-                <div className="timeline-start md:text-end mb-10">
+                <div
+                  data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  className="timeline-start md:text-end mb-10"
+                >
                   <time className="font-mono italic text-[#64FFDA] ">
                     2008-2014
                   </time>
@@ -66,7 +81,12 @@ const Education = () => {
                     />
                   </svg>
                 </div>
-                <div className="timeline-end mb-10">
+                <div
+                  data-aos="fade-left"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  className="timeline-end mb-10"
+                >
                   <time className="font-mono italic text-[#64FFDA] ">
                     2014-2018{" "}
                   </time>
@@ -99,7 +119,12 @@ const Education = () => {
                     />
                   </svg>
                 </div>
-                <div className="timeline-start md:text-end mb-10">
+                <div
+                  data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  className="timeline-start md:text-end mb-10"
+                >
                   <time className="font-mono italic text-[#64FFDA] ">
                     2018-2020
                   </time>
@@ -136,7 +161,12 @@ const Education = () => {
                     />
                   </svg>
                 </div>
-                <div className="timeline-end mb-10">
+                <div
+                  data-aos="fade-left"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  className="timeline-end mb-10"
+                >
                   <time className="font-mono italic text-[#64FFDA] ">
                     2020 - Present
                   </time>

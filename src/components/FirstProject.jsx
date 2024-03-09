@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { PiGithubLogoBold } from "react-icons/pi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const FirstProject = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <section
+        data-aos="fade-right"
         className="flex items-center max-xl:hidden  sm:px-36 gap-3 text-3xl py-16 max-sm:pl-5 "
         id="Projects"
       >
@@ -19,12 +26,17 @@ const FirstProject = () => {
       <section className="flex justify-center max-xl:hidden items-center  px-44 ">
         <a href="https://ecoshope.netlify.app/" target="_blank">
           <img
+            data-aos="zoom-in"
+            data-aos-easing="ease-in-sine"
             src="/first.png"
             alt=""
             className="w-[600px] h-[350px] object-fill shadow-lg shadow-fuchsia-300 rounded-md"
           />
         </a>
-        <section className=" text-right relative w-[600px] 2xl:w-[500px] h-auto ">
+        <section
+          data-aos="fade-left"
+          className=" text-right relative w-[600px] 2xl:w-[500px] h-auto "
+        >
           <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
           <h1 className=" font-Noto text-3xl font-bold text-[#64ffda]">
             Furniture Shop

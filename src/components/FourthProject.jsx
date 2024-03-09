@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { PiGithubLogoBold } from "react-icons/pi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const FourthProject = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <section className=" flex justify-center  mt-20  mx-auto  max-xl:hidden  gap-20   px-44 scroll-smooth">
         <section className="flex justify-center items-center ">
-          <section className=" text-left relative w-[600px] 2xl:w-[500px] h-auto ">
+          <section
+            data-aos="zoom-in"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            className=" text-left  relative w-[600px] 2xl:w-[500px] h-auto "
+          >
             <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
             <h1 className=" font-Noto text-3xl font-bold text-[#64ffda]">
               Tip Calculator
@@ -44,7 +54,11 @@ const FourthProject = () => {
               </a>
             </section>
           </section>
-          <section>
+          <section
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <a
               href="https://tip-calculator-app-tau.vercel.app/"
               target="_blank"
@@ -52,7 +66,7 @@ const FourthProject = () => {
               <img
                 src="/PREVIEW-3.png"
                 alt=""
-                className="w-[600px] h-[350px] shadow-lg shadow-fuchsia-300 rounded-md"
+                className="w-[600px] z-[-1]  h-[350px] shadow-lg shadow-fuchsia-300 rounded-md"
               />
             </a>
           </section>
