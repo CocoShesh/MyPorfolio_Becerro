@@ -17,7 +17,7 @@ const FirstProject = () => {
       </section>
 
       <section className="flex justify-center max-xl:hidden items-center  px-44 ">
-        <a href="https://furniture-shop-hbae.vercel.app/" target="_blank">
+        <a href="https://ecoshope.netlify.app/" target="_blank">
           <img
             src="/first.png"
             alt=""
@@ -51,7 +51,7 @@ const FirstProject = () => {
             >
               <PiGithubLogoBold />
             </a>
-            <a href="https://furniture-shop-hbae.vercel.app/" target="_blank">
+            <a href="https://ecoshope.netlify.app/" target="_blank">
               <FaRegShareFromSquare />
             </a>
           </section>
@@ -95,7 +95,7 @@ const FirstProject = () => {
             Some Things I’ve Built
           </h1>
         </section>
-        <a href="https://furniture-shop-hbae.vercel.app/" target="_blank">
+        <a href="https://ecoshope.netlify.app/" target="_blank">
           <div className=" card mx-5 bg-[#112240] shadow-xl  rounded cursor-pointer">
             <figure>
               <img src="/first.png" alt="Shoes" className=" object-cover" />
@@ -121,10 +121,7 @@ const FirstProject = () => {
                 >
                   <PiGithubLogoBold />
                 </a>
-                <a
-                  href="https://furniture-shop-hbae.vercel.app/"
-                  target="_blank"
-                >
+                <a href="https://ecoshope.netlify.app/" target="_blank">
                   <FaRegShareFromSquare />
                 </a>
               </section>
