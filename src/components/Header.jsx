@@ -20,8 +20,8 @@ const Header = () => {
   return (
     <>
       <Headroom>
-        <div className="navbar bg-[#0a192f] border-b border-slate-800 h-20">
-          <div className="navbar-start w-[550px]">
+        <div className="navbar bg-[#0a192f] border-b border-slate-800 h-20 ">
+          <div className="navbar-start max-w-screen 2xl:w-2xl">
             <Link to="main" smooth={true} onClick={scrollToTop}>
               <img
                 src="/logo2.png"
@@ -30,7 +30,7 @@ const Header = () => {
               />
             </Link>
           </div>
-          <div className="navbar-end hidden lg:flex  w-auto">
+          <div className="navbar-end hidden lg:flex  w-full">
             <ul className="p-2 menu-horizontal gap-10 items-center text-[#56ddc0] font-bold font-Mono">
               <Link to="main" smooth={true} onClick={closeDrawer}>
                 <li>01. Home</li>
@@ -65,7 +65,7 @@ const Header = () => {
               <div
                 tabIndex="0"
                 role="button"
-                className="btn btn-ghost lg:hidden"
+                className="btn btn-ghost pr-0 lg:hidden"
                 onClick={toggleDrawer}
               >
                 <svg

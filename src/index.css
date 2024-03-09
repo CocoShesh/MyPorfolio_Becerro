@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* :root {
+  --background-color: #0a192f;
+  --header-color: #56ddc0;
+}
+
+[data-theme="light"] {
+  --background-color: #ffffff;
+  --header-color: #0a192f;
+} */
+
 body {
   background: #0a192f;
 }
