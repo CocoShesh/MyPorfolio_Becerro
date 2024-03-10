@@ -16,10 +16,7 @@ const data = [
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
     title: "React",
   },
-  {
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-    title: "Tailwind CSS",
-  },
+
   {
     src: "/tailwind-css.svg",
     title: "Tailwind Css",
@@ -70,19 +67,22 @@ const TechStack = () => {
     <>
       <h1 className="text-[#ccd6f6] text-xl mt-5 leading-8">Tech Stack:</h1>
 
-      {data?.map((item, index) => (
-        <div key={index} class="stats bg-[#0a192f] ">
-          <div class="stat-title pr-5  cursor-pointer ">
+      <div class="flex  gap-3 flex-wrap bg-[#0a192f] ">
+        {data?.map((item, index) => (
+          <div
+            key={index}
+            class="stat-title px-2 py-2 bg-[#0a192f] custom-shadow  rounded-lg cursor-pointer "
+          >
             <img
               src={item?.src}
               alt=""
               key={index}
-              className="h-[50px] bg-transparent"
+              className="h-[50px]  w-[50px] bg-transparent"
               title={item?.title}
             />
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </>
   );
 };

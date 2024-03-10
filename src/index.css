@@ -21,6 +21,11 @@ li:hover {
 .profile-pic {
   animation: profile infinite 7s ease-in-out alternate;
 }
+.custom-shadow {
+  box-shadow: 3px 6px 27px -3px rgba(24, 17, 17, 0.75);
+  -webkit-box-shadow: 3px 6px 27px -3px rgba(24, 17, 17, 0.75);
+  -moz-box-shadow: 3px 6px 27px -3px rgba(24, 17, 17, 0.75);
+}
 @keyframes profile {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
