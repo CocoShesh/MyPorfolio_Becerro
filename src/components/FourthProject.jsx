@@ -66,7 +66,7 @@ const FourthProject = () => {
               <img
                 src="/PREVIEW-3.png"
                 alt=""
-                className="w-[600px] z-[-1]  h-[350px] shadow-lg shadow-fuchsia-300 rounded-md"
+                className="w-[600px] z-[-1]  h-[350px] shadow-custom rounded-md"
               />
             </a>
           </section>

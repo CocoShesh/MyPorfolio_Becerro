@@ -52,9 +52,9 @@ const SecondProject = () => {
               data-aos="zoom-in"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
-              src="/preview.png"
+              src="/preview.jpg"
               alt=""
-              className="w-[600px] h-[350px] shadow-lg shadow-fuchsia-300 rounded-md"
+              className="w-[600px] h-[350px] shadow-custom rounded-md"
             />
           </a>
         </section>

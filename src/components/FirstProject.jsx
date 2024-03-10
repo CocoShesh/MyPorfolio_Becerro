@@ -28,9 +28,9 @@ const FirstProject = () => {
           <img
             data-aos="zoom-in"
             data-aos-easing="ease-in-sine"
-            src="/first.png"
+            src="/first.jpg"
             alt=""
-            className="w-[600px] h-[350px] object-fill shadow-lg shadow-fuchsia-300 rounded-md"
+            className="w-[600px] h-[350px]  object-fill shadow-custom   rounded-md"
           />
         </a>
         <section

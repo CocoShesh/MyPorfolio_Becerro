@@ -12,8 +12,8 @@ export default {
         Mono: ["Space Mono", "monospace"],
         Noto: ["Noto Sans", "sans-serif"],
       },
-      shadow: {
-        custom: "2px 2px 1px 1px",
+      boxShadow: {
+        custom: "0px 7px 29px 1px rgba(240,171,252,1)",
       },
       screens: {
         xs: "320px",

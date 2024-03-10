@@ -18,7 +18,7 @@ const FifthProject = () => {
               data-aos-easing="ease-in-sine"
               src="/games-preview.png"
               alt=""
-              className="w-[600px] h-[350px]  shadow-lg shadow-fuchsia-300 rounded-md "
+              className="w-[600px] h-[350px]   shadow-custom rounded-md "
             />
           </a>
           <section
