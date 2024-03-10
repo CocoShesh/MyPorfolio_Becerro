@@ -31,6 +31,14 @@ const data = [
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg",
     title: "Git",
   },
+  {
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg",
+    title: "Mysql",
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg",
+    title: "Github",
+  },
 ];
 
 export default data;

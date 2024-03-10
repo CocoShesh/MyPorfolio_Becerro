@@ -21,6 +21,34 @@ const data = [
     title: "Tailwind CSS",
   },
   {
+    src: "/tailwind-css.svg",
+    title: "Tailwind Css",
+  },
+  {
+    src: "/daisy-ui.svg",
+    title: "Daisy UI",
+  },
+  {
+    src: "/bootstrap-4.svg",
+    title: "Bootstrap 4",
+  },
+  {
+    src: "/ant-d.svg",
+    title: "ANT Design",
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg",
+    title: "Git",
+  },
+  {
+    src: "https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg",
+    title: "Mysql",
+  },
+  {
+    src: "/mariadb.svg",
+    title: "Maria Db",
+  },
+  {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
     title: "MongoDB",
   },
@@ -29,8 +57,12 @@ const data = [
     title: "Node js",
   },
   {
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg",
-    title: "Git",
+    src: "/postman.svg",
+    title: "Postman",
+  },
+  {
+    src: "/python.svg",
+    title: "Python", // Assuming this is Python since it wasn't mentioned in the frontend/backend category
   },
 ];
 const TechStack = () => {
@@ -40,8 +72,7 @@ const TechStack = () => {
 
       {data?.map((item, index) => (
         <div key={index} class="stats bg-[#0a192f] ">
-          <div class="stat-title pr-5  ">
-            {" "}
+          <div class="stat-title pr-5  cursor-pointer ">
             <img
               src={item?.src}
               alt=""
