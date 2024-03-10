@@ -13,6 +13,7 @@ import MoreProjects from "./components/MoreProjects";
 import Education from "./components/Education";
 import SixthProject from "./components/SixthProject";
 import SeventhProject from "./components/SeventhProject";
+import EightProject from "./components/EightProject";
 function App() {
   return (
     <>
@@ -29,6 +30,7 @@ function App() {
         <FifthProject />
         <SixthProject />
         <SeventhProject />
+        <EightProject />
         {/* <MoreProjects /> */}
         <Contact />
         <Footer />
