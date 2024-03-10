@@ -12,7 +12,7 @@ import FifthProject from "./components/FifthProject";
 import MoreProjects from "./components/MoreProjects";
 import Education from "./components/Education";
 import SixthProject from "./components/SixthProject";
-import SeventhProject from "./components/seventhProject";
+import SeventhProject from "./components/SeventhProject";
 function App() {
   return (
     <>
