@@ -61,11 +61,18 @@ const SixthProject = () => {
           </section>
         </section>
       </section>{" "}
-      <section className="xl:hidden  sm:px-36 sm:pt-10  mt-10 ">
+      <section
+        data-aos="zoom-in"
+        data-aos-easing="ease-in-sine"
+        className="xl:hidden  sm:px-36 sm:pt-10  mt-10 "
+      >
         <a href="https://todo-app-cocoshesh.vercel.app/" target="_blank">
           <div className=" card mx-5 bg-[#112240] shadow-xl rounded cursor-pointer ">
             <figure>
               <img
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
                 src="/desktop-preview.jpg"
                 alt="Shoes"
                 className=" object-cover"

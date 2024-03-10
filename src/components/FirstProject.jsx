@@ -97,7 +97,11 @@ const FirstProject = () => {
         </div>
       </div> */}
 
-      <section className="xl:hidden  sm:px-36 sm:pt-32  mt-20">
+      <section
+        data-aos="zoom-in"
+        data-aos-easing="ease-in-sine"
+        className="xl:hidden  sm:px-36 sm:pt-32  mt-20"
+      >
         <section
           className="max-sm:pl-5 flex items-center  text-2xl gap-3   mb-10  pt-20 "
           id="projects"
@@ -110,7 +114,7 @@ const FirstProject = () => {
         <a href="https://ecoshope.netlify.app/" target="_blank">
           <div className=" card mx-5 bg-[#112240] shadow-xl  rounded cursor-pointer">
             <figure>
-              <img src="/first.png" alt="Shoes" className=" object-cover" />
+              <img src="/first.jpg" alt="Shoes" className=" object-cover" />
             </figure>
             <div className="card-body  ">
               <p className="font-Mono  text-[#30d5da]">Featured Project</p>
