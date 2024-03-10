@@ -53,7 +53,7 @@ const SeventhProject = () => {
                 <PiGithubLogoBold />
               </a>
 
-              <a href="https://game-app-cocoshesh.vercel.app/" target="_blank">
+              <a href="https://luxury-cars-rental.netlify.app/" target="_blank">
                 <FaRegShareFromSquare />
               </a>
             </section>
@@ -68,7 +68,7 @@ const SeventhProject = () => {
         data-aos-easing="ease-in-sine"
         className="xl:hidden  sm:px-36 sm:pt-10 mt-10"
       >
-        <a href="https://game-app-cocoshesh.vercel.app/" target="_blank">
+        <a href="https://luxury-cars-rental.netlify.app/" target="_blank">
           <div className=" card mx-5 bg-[#112240] shadow-xl rounded  cursor-pointer">
             <figure>
               <img
