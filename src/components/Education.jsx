@@ -16,7 +16,7 @@ const Education = () => {
           >
             <section
               data-aos="fade-right"
-              data-aos-offset="300"
+              data-aos-offset="500"
               data-aos-easing="ease-in-sine"
               className=" flex gap-3 2xl:mx-auto"
             >

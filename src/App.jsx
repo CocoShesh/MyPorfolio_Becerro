@@ -12,6 +12,7 @@ import FifthProject from "./components/FifthProject";
 import MoreProjects from "./components/MoreProjects";
 import Education from "./components/Education";
 import SixthProject from "./components/SixthProject";
+import SeventhProject from "./components/seventhProject";
 function App() {
   return (
     <>
@@ -27,6 +28,7 @@ function App() {
         <FourthProject />
         <FifthProject />
         <SixthProject />
+        <SeventhProject />
         {/* <MoreProjects /> */}
         <Contact />
         <Footer />
