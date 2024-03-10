@@ -34,8 +34,6 @@ const SixthProject = () => {
               <ul className="flex flex-wrap mr-10 gap-5 font-Mono uppercase text-[#9ca7c6] ">
                 <li>React Js,</li>
                 <li>Tailwind Css,</li>
-                <li>Reach Hook Form,</li>
-                <li>React Hot Toast,</li>
                 <li>uuid,</li>
                 <li>Visual Studio Code</li>
               </ul>
@@ -57,7 +55,7 @@ const SixthProject = () => {
                 data-aos-easing="ease-in-sine"
                 src="/desktop-preview.jpg"
                 alt=""
-                className="w-[600px] h-[350px] shadow-lg shadow-fuchsia-300 rounded-md"
+                className="w-[600px] h-[350px] shadow-custom rounded-md"
               />
             </a>
           </section>
@@ -86,9 +84,7 @@ const SixthProject = () => {
               <ul className="flex  gap-5 font-Mono uppercase  mt-5 text-sm text-[#64FFDA] ">
                 <li>React Js</li>
                 <li>Tailwind Css</li>
-                <li>Reach Hook Form</li>
-                <li>React Hot Toast</li>
-                <li>uuid</li>
+
                 <li>Visual Studio Code</li>
               </ul>
               <section className="flex gap-5   text-2xl text-[#64FFDA]">
