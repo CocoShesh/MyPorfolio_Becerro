@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className="hero min-h-screen sm:px-32 font-bold font-Noto">
-        <div className="hero-content flex-col lg:flex-row-reverse  ">
+        <div className="hero-content flex-col lg:gap-28 lg:flex-row-reverse  ">
           <img
             src="/profile-pic.png"
             alt="profile"

@@ -8,28 +8,32 @@ const SocialMediaAccounts = () => {
         <a
           href="https://github.com/CocoShesh"
           target="_blank"
-          className="hover:scale-110"
+          className="hover:scale-110 tooltip tooltip-info"
+          data-tip="Github"
         >
           <FiGithub />
         </a>
         <a
           href="https://www.instagram.com/itsmenardskie/ "
           target="_blank"
-          className="hover:scale-110"
+          className="hover:scale-110 tooltip tooltip-info"
+          data-tip="Instagram"
         >
           <FiInstagram />
         </a>
         <a
           href="https://www.facebook.com/your.nard/"
           target="_blank"
-          className="hover:scale-110"
+          className="hover:scale-110 tooltip tooltip-info"
+          data-tip="Facebook"
         >
           <FiFacebook />
         </a>
         <a
           href=" https://www.linkedin.com/in/glenard-refamonte-875328282/"
-          className="hover:scale-110"
+          className="hover:scale-110 tooltip tooltip-info"
           target="_blank"
+          data-tip="Linkedin"
         >
           <FiLinkedin />
         </a>
