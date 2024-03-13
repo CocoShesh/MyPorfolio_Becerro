@@ -71,14 +71,14 @@ const TechStack = () => {
         {data?.map((item, index) => (
           <div
             key={index}
-            class="stat-title px-2 py-2 bg-[#0a192f] custom-shadow  rounded-lg cursor-pointer "
+            class="  tooltip  stat-title px-2 py-2 bg-[#0a192f] custom-shadow  rounded-lg cursor-pointer hover:scale-110 transition-all duration-500 ease-in-out transform hover:bg-[#0a192f] "
+            data-tip={item.title}
           >
             <img
               src={item?.src}
               alt=""
               key={index}
               className="h-[50px]  w-[50px] bg-transparent"
-              title={item?.title}
             />
           </div>
         ))}
