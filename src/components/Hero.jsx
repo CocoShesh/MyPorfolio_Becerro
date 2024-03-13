@@ -8,7 +8,7 @@ const Hero = () => {
           <img
             src="/profile-pic.png"
             alt="profile"
-            className="sm:max-w-sm xs:max-w-auto h-[400px]  rounded-lg  brightness-75 hover:brightness-100"
+            className="sm:max-w-sm xs:max-w-auto  rounded-lg  brightness-75 hover:brightness-100"
           />
           <div>
             <p className="text-3xl  font-Mono pl-3">Hi, my name is</p>
