@@ -32,19 +32,44 @@ const Header = () => {
           </div>
           <div className="navbar-end hidden lg:flex  w-full">
             <ul className="p-2 menu-horizontal gap-10 items-center text-[#56ddc0] font-bold font-Mono">
-              <Link to="main" smooth={true} onClick={closeDrawer}>
+              <Link
+                to="main"
+                smooth={true}
+                onClick={closeDrawer}
+                className="hover:text-[#ccd6f6]"
+              >
                 <li>01. Home</li>
               </Link>
-              <Link to="about" smooth={true} onClick={closeDrawer}>
+              <Link
+                to="about"
+                smooth={true}
+                onClick={closeDrawer}
+                className="hover:text-[#ccd6f6]"
+              >
                 <li>02. About</li>
               </Link>
-              <Link to="education" smooth={true} onClick={closeDrawer}>
+              <Link
+                to="education"
+                smooth={true}
+                onClick={closeDrawer}
+                className="hover:text-[#ccd6f6]"
+              >
                 <li>03. Education</li>
               </Link>
-              <Link to="Projects" smooth={true} onClick={closeDrawer}>
+              <Link
+                to="Projects"
+                smooth={true}
+                onClick={closeDrawer}
+                className="hover:text-[#ccd6f6]"
+              >
                 <li>04. Projects</li>
               </Link>
-              <Link to="contact" smooth={true} onClick={closeDrawer}>
+              <Link
+                to="contact"
+                smooth={true}
+                onClick={closeDrawer}
+                className="hover:text-[#ccd6f6]"
+              >
                 <li>05. Contacts</li>
               </Link>
               <li>

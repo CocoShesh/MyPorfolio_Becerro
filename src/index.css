@@ -26,6 +26,18 @@ li:hover {
   -webkit-box-shadow: 3px 6px 27px -3px rgba(24, 17, 17, 0.75);
   -moz-box-shadow: 3px 6px 27px -3px rgba(24, 17, 17, 0.75);
 }
+
+.ant-float-btn-body {
+  background: #0a192f !important;
+  box-shadow: 1px 1px 5px 1px rgb(255, 255, 255);
+}
+
+.tooltip-shadow {
+  box-shadow: 1px 1px 5px 1px rgb(255, 255, 255);
+}
+.ant-float-btn-icon {
+  color: white !important;
+}
 @keyframes profile {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
