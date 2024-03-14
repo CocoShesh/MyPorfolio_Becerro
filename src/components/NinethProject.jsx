@@ -18,7 +18,7 @@ const NinethProject = () => {
               data-aos="fade-right"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
-              src="/car-rental.jpg"
+              src="/dictionary.png"
               alt=""
               className="w-[600px] h-[350px]   shadow-custom rounded-md "
             />
@@ -82,7 +82,7 @@ const NinethProject = () => {
           <div className=" card mx-5 bg-[#112240] shadow-xl rounded  cursor-pointer">
             <figure>
               <img
-                src="/car-rental.jpg"
+                src="/dictionary.png"
                 alt="Shoes"
                 className=" object-cover"
               />

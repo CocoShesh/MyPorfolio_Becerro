@@ -29,12 +29,13 @@ const Home = () => {
         <FirstProject />
         <SecondProject />
         <NinethProject />
+        <EightProject />
+        <SeventhProject />
         <ThirdProject />
         <FourthProject />
         <FifthProject />
         <SixthProject />
-        <SeventhProject />
-        <EightProject />
+
         <MyRepository />
         <Contact />
         <Footer />
