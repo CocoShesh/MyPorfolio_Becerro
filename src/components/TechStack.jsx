@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 const data = [
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
@@ -65,10 +65,24 @@ const data = [
 const TechStack = () => {
   const [imagesLoaded, setImagesLoaded] = useState(false);
 
-  const handleImagesLoad = () => {
-    setImagesLoaded(true);
-  };
+  useEffect(() => {
+    const imagePromises = data.map(item => {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.src = item.src;
+        img.onload = () => resolve();
+        img.onerror = () => reject();
+      });
+    });
 
+    Promise.all(imagePromises)
+      .then(() => {
+        setImagesLoaded(true);
+      })
+      .catch(error => {
+        console.error("Failed to load images:", error);
+      });
+  }, []);
   return (
     <>
       <h1 className="text-[#ccd6f6] text-xl mt-5 leading-8">Tech Stack:</h1>
