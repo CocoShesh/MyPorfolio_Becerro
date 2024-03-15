@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -48,4 +49,57 @@ li:hover {
   100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
+}
+
+svg {
+  font-family: "Bungee Shade", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+svg text {
+  animation: stroke 5s infinite alternate;
+  stroke-width: 2;
+  stroke: #0f1b2d;
+  font-size: 100px;
+}
+
+svg {
+  font-family: "Bungee Shade", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+svg text {
+  animation: stroke 4s infinite alternate;
+  stroke-width: 2;
+  stroke: #bbc0c8;
+  font-size: 100px;
+}
+@keyframes stroke {
+  0% {
+    fill: rgba(87, 211, 178, 0);
+    stroke: rgba(187, 192, 200, 1);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(87, 211, 178, 0);
+    stroke: rgba(187, 192, 200, 1);
+  }
+  80% {
+    fill: rgba(87, 211, 178, 0);
+    stroke: rgba(187, 192, 200, 1);
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgba(87, 211, 178, 1);
+    stroke: rgba(187, 192, 200, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+
+.wrapper {
+  background-color: #0a192f;
 }
