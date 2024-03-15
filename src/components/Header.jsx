@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Headroom from "react-headroom";
 import { Link, animateScroll as scroll } from "react-scroll";
-
+import Loader from "./Loader";
 const Header = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-
+  const [loading, setLoading] = useState(false); // State for loader
   const toggleDrawer = () => {
     setIsDrawerOpen(!isDrawerOpen);
   };
@@ -14,21 +14,26 @@ const Header = () => {
   };
 
   const scrollToTop = () => {
-    scroll.scrollToTop();
+    setLoading(true); // Show loader when logo is clicked
+    setTimeout(() => {
+      scroll.scrollToTop();
+      setLoading(false); // Hide loader after scrolling
+    }, 1000); // Adjust timing as needed
   };
 
   return (
     <>
+      {loading && <Loader />}
       <Headroom>
         <div className="navbar bg-[#0a192f] border-b  border-slate-800 h-20  ">
           <div className="navbar-start max-w-screen 2xl:w-2xl">
-            <Link to="main" smooth={true} onClick={scrollToTop}>
+            <a href="/" onClick={scrollToTop}>
               <img
                 src="/logo2.png"
                 alt=""
                 className="w-50 h-16 cursor-pointer lg:pl-10"
               />
-            </Link>
+            </a>
           </div>
           <div className="navbar-end hidden lg:flex  w-full">
             <ul className="p-2 menu-horizontal gap-10 items-center text-[#56ddc0] font-bold font-Mono">
