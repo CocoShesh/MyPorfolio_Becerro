@@ -88,15 +88,15 @@ const TechStack = () => {
       <h1 className="text-[#ccd6f6] text-xl mt-5 leading-8">Tech Stack:</h1>
 
       {!imagesLoaded && (
-        <div class="flex  gap-3 flex-wrap bg-[#0a192f] ">
+        <div className="flex gap-3 flex-wrap bg-[#0a192f]">
           {data?.map((item, index) => (
             <div
               key={index}
-              class="   stat-title px-2 py-2 bg-[#ccd6f6] custom-shadow animate-pulse   rounded-lg cursor-pointer hover:scale-110 transition-all duration-500 ease-in-out transform hover:bg-[#0a192f] "
+              className="tooltip stat-title px-2 py-2 bg-[#ccd6f6] custom-shadow animate-pulse rounded-lg cursor-pointer hover:scale-110 transition-all duration-500 ease-in-out transform hover:bg-[#0a192f]"
             >
               <div
                 key={index}
-                className="h-[50px] animate-pulse   w-[50px] bg-transparent"
+                className="h-[50px] animate-pulse w-[50px] bg-transparent"
               />
             </div>
           ))}
@@ -117,9 +117,7 @@ const TechStack = () => {
             <img
               src={item.src}
               alt=""
-              key={index}
               className="h-[50px] w-[50px] bg-transparent"
-              onLoad={handleImagesLoad}
             />
           </div>
         ))}
@@ -127,4 +125,5 @@ const TechStack = () => {
     </>
   );
 };
+
 export default TechStack;
