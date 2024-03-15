@@ -80,7 +80,7 @@ const TechStack = () => {
         setImagesLoaded(true);
       })
       .catch(error => {
-        console.error("Failed to load images:", error);
+        throw error;
       });
   }, []);
   return (
