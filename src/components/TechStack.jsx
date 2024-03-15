@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 const data = [
   {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
@@ -59,26 +59,53 @@ const data = [
   },
   {
     src: "/python.svg",
-    title: "Python", // Assuming this is Python since it wasn't mentioned in the frontend/backend category
+    title: "Python",
   },
 ];
 const TechStack = () => {
+  const [imagesLoaded, setImagesLoaded] = useState(false);
+
+  const handleImagesLoad = () => {
+    setImagesLoaded(true);
+  };
+
   return (
     <>
       <h1 className="text-[#ccd6f6] text-xl mt-5 leading-8">Tech Stack:</h1>
 
-      <div class="flex  gap-3 flex-wrap bg-[#0a192f] ">
+      {!imagesLoaded && (
+        <div class="flex  gap-3 flex-wrap bg-[#0a192f] ">
+          {data?.map((item, index) => (
+            <div
+              key={index}
+              class="   stat-title px-2 py-2 bg-[#ccd6f6] custom-shadow animate-pulse   rounded-lg cursor-pointer hover:scale-110 transition-all duration-500 ease-in-out transform hover:bg-[#0a192f] "
+            >
+              <div
+                key={index}
+                className="h-[50px] animate-pulse   w-[50px] bg-transparent"
+              />
+            </div>
+          ))}
+        </div>
+      )}
+
+      <div
+        className={`flex gap-3 flex-wrap bg-[#0a192f] ${
+          imagesLoaded ? "visible" : "hidden"
+        }`}
+      >
         {data?.map((item, index) => (
           <div
             key={index}
-            class="  tooltip  stat-title px-2 py-2 bg-[#0a192f] custom-shadow  rounded-lg cursor-pointer hover:scale-110 transition-all duration-500 ease-in-out transform hover:bg-[#0a192f] "
+            className="tooltip stat-title px-2 py-2 bg-[#0a192f] custom-shadow rounded-lg cursor-pointer hover:scale-110 transition-all duration-500 ease-in-out transform hover:bg-[#0a192f]"
             data-tip={item.title}
           >
             <img
-              src={item?.src}
+              src={item.src}
               alt=""
               key={index}
-              className="h-[50px]  w-[50px] bg-transparent"
+              className="h-[50px] w-[50px] bg-transparent"
+              onLoad={handleImagesLoad}
             />
           </div>
         ))}
@@ -86,5 +113,4 @@ const TechStack = () => {
     </>
   );
 };
-
 export default TechStack;
