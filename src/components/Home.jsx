@@ -40,7 +40,7 @@ const Home = () => {
         <Contact />
         <Footer />
       </main>
-      <FloatButton.BackTop className="mr-14 " />
+      <FloatButton.BackTop className="mr-14  max-sm:mr-0" />
     </>
   );
 };
