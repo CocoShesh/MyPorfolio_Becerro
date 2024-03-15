@@ -22,7 +22,7 @@ const Hero = () => {
             <img
               src={placeholderImage}
               alt="placeholder"
-              className="sm:max-w-sm xs:max-w-auto rounded-lg brightness-75"
+              className="sm:max-w-sm xs:max-w-auto animate-pulse rounded-full brightness-75"
             />
           )}
           <img
