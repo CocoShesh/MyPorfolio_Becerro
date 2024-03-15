@@ -18,7 +18,7 @@ const Header = () => {
     setTimeout(() => {
       scroll.scrollToTop();
       setLoading(false); // Hide loader after scrolling
-    }, 1000); // Adjust timing as needed
+    }, 5000); // Adjust timing as needed
   };
 
   return (
