@@ -16,7 +16,8 @@ export default {
         custom: "0px 7px 29px 1px rgba(240,171,252,1)",
       },
       screens: {
-        xs: "320px",
+        xs: "521px",
+        "3xl": "1400px",
       },
     },
   },
