@@ -1,28 +1,6 @@
 import axios from "axios";
 
-// let token = import.meta.env.VITE_SPOTIFY_TOKEN;
-const clientId = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
-const clientSecret = import.meta.env.VITE_SPOTIFY_CLIENT_SECRET;
-
-const handleRefreshToken = async () => {
-  try {
-    const response = await axios.post(
-      "https://accounts.spotify.com/api/token",
-      {
-        grant_type: "refresh_token",
-        refresh_token: token.refresh_token,
-        client_id: clientId,
-        client_secret: clientSecret,
-      }
-    );
-
-    token = response.data.access_token;
-    return token;
-  } catch (error) {
-    console.error("Error refreshing token:", error);
-    throw error;
-  }
-};
+let token = import.meta.env.VITE_SPOTIFY_TOKEN;
 
 export const getSpotifyProfile = async () => {
   try {
@@ -39,12 +17,10 @@ export const getSpotifyProfile = async () => {
     return response.data;
   } catch (error) {
     if (error.response && error.response.status === 401) {
-      // If the error is due to an expired token, refresh the token and retry the request
       await handleRefreshToken();
-      // Retry the request with the new token
-      return getSpotifyPlaylist();
+      return getSpotifyProfile();
     }
-    console.error("Error fetching Spotify playlist:", error);
+    console.error("Error fetching Spotify profile:", error);
     throw error;
   }
 };
@@ -89,6 +65,18 @@ export const getTopArtistUser = async () => {
   let config = {
     method: "get",
     url: "https://api.spotify.com/v1/me/top/artists?locale=en-US%2Cen%3Bq%3D0.5",
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  };
+  const response = await axios(config);
+  return response.data;
+};
+
+export const getPlayerTrack = async () => {
+  let config = {
+    method: "get",
+    url: "https://api.spotify.com/v1/me/player",
     headers: {
       Authorization: `Bearer ${token}`,
     },
