@@ -9,61 +9,64 @@ const EightProject = () => {
   }, []);
   return (
     <>
-      <section className=" flex justify-center  mt-20  mx-auto  max-xl:hidden  gap-20   px-44 scroll-smooth">
-        <section className="flex justify-center items-center ">
-          <section
-            data-aos="fade-right"
+      <section
+        data-aos="fade-right"
+        className="flex items-center max-xl:hidden  sm:px-36 gap-3 text-3xl py-16 max-sm:pl-5 "
+        id="Projects"
+      >
+        <section className=" flex gap-3 2xl:mx-auto">
+          <span className=" font-Mono"> 03. </span>
+          <h1 className=" font-Noto font-bold text-[#ccd6f6]">
+            Some Things I’ve Built
+          </h1>
+        </section>
+      </section>
+
+      <section className="flex justify-center max-xl:hidden items-center  px-44 ">
+        <a href="https://simple-timer-by-nard.netlify.app/" target="_blank">
+          <img
+            data-aos="fade-left"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
-            className=" text-left relative w-[600px] 2xl:w-[500px] h-auto "
-          >
-            <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
-            <h1 className="font-Noto text-3xl font-bold text-[#64ffda]">
-              Timer App
-            </h1>
-            <section className="w-[600px] h-auto bg-[#112240] mt-10 p-5 absolute left-0 font-Mono text-orange-200 text-justify text-[15px] font-bold">
-              <p>
-                This sleek Timer app allows users to efficiently manage their
-                time by providing essential timing features. Users can start,
-                stop, and reset the timer, making it a handy tool for various
-                activities. Whether you're working, studying, or simply keeping
-                track of tasks, this Timer App has you covered.
-              </p>
-            </section>
-
-            <section className="mt-56  ">
-              <ul className="flex flex-wrap mr-10 gap-5 font-Mono uppercase text-[#9ca7c6] ">
-                <li>React Js,</li>
-                <li>Tailwind Css,</li>
-                <li>Visual Studio Code</li>
-              </ul>
-            </section>
-            <section className="flex gap-5 mt-5 text-2xl">
-              <a href="https://github.com/CocoShesh/Timer-App" target="_blank">
-                <PiGithubLogoBold />
-              </a>
-              <a
-                href="https://simple-timer-by-nard.netlify.app/"
-                target="_blank"
-              >
-                <FaRegShareFromSquare />
-              </a>
-            </section>
+            src="/timer.png"
+            alt=""
+            className="w-[600px] h-[350px] shadow-custom rounded-md"
+          />
+        </a>
+        <section
+          data-aos="fade-left"
+          className=" text-right relative w-[600px] 2xl:w-[500px] h-auto "
+        >
+          <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
+          <h1 className=" font-Noto text-3xl font-bold text-[#64ffda]">
+            Timer App
+          </h1>
+          <section className="w-[600px] h-[150px] bg-[#112240] mt-5 px-4 py-5 absolute right-0 font-Mono font-bold  text-justify text-orange-200 text-[15px]">
+            <p>
+              This sleek Timer app allows users to efficiently manage their time
+              by providing essential timing features. Users can start, stop, and
+              reset the timer, making it a handy tool for various activities.
+              Whether you're working, studying, or simply keeping track of
+              tasks, this Timer App has you covered.
+            </p>
           </section>
-          <section>
+          <section className="mt-52  ">
+            <ul className="flex justify-end gap-5 font-Mono uppercase text-[#9ca7c6] ">
+              <li>React Js,</li>
+              <li>Tailwind Css,</li>
+              <li>Visual Studio Code</li>
+            </ul>
+          </section>
+          <section className="flex gap-5 justify-end mt-5 text-2xl">
+            <a href="https://github.com/CocoShesh/Timer-App" target="_blank">
+              <PiGithubLogoBold />
+            </a>
             <a href="https://simple-timer-by-nard.netlify.app/" target="_blank">
-              <img
-                data-aos="fade-left"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-                src="/timer.png"
-                alt=""
-                className="w-[600px] h-[350px] shadow-custom rounded-md"
-              />
+              <FaRegShareFromSquare />
             </a>
           </section>
         </section>
-      </section>{" "}
+      </section>
       <section
         data-aos="zoom-in"
         data-aos-easing="ease-in-sine"
