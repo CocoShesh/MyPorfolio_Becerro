@@ -13,14 +13,7 @@ const EightProject = () => {
         data-aos="fade-right"
         className="flex items-center max-xl:hidden  sm:px-36 gap-3 text-3xl py-16 max-sm:pl-5 "
         id="Projects"
-      >
-        <section className=" flex gap-3 2xl:mx-auto">
-          <span className=" font-Mono"> 03. </span>
-          <h1 className=" font-Noto font-bold text-[#ccd6f6]">
-            Some Things I’ve Built
-          </h1>
-        </section>
-      </section>
+      ></section>
 
       <section className="flex justify-center max-xl:hidden items-center  px-44 ">
         <a href="https://simple-timer-by-nard.netlify.app/" target="_blank">
