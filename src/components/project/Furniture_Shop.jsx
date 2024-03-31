@@ -3,7 +3,7 @@ import { PiGithubLogoBold } from "react-icons/pi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const FirstProject = () => {
+const FurnitureProject = () => {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -69,33 +69,6 @@ const FirstProject = () => {
           </section>
         </section>
       </section>
-      {/* 
-      <div className="hero min-h-screen sm:px-36">
-        <div className="hero-content flex-col lg:flex-row relative">
-          <img
-            src="/public/first.png"
-            alt=""
-            className=" w-[600px] sm:w-full rounded-lg shadow-2xl  max-sm:brightness-110"
-          />
-          <div className="text-right">
-            <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
-            <h1 className=" font-Noto text-3xl font-bold text-[#64ffda] mb-44">
-              Furniture Shop
-            </h1>
-            <h1 className="text-5xl font-bold">Box Office News!</h1>
-            <section className="w-[600px] h-[150px] bg-[#112240a9] max-sm:bg-transparent mt-5 px-4 py-5 absolute  right-4 top-16 font-Mono font-bold  text-justify text-orange-200 text-[15px]">
-              <p>
-                A virtual furniture shop providing an extensive collection of
-                handcrafted furniture pieces, blending modern aesthetics with
-                timeless craftsmanship. Immerse yourself in a world of quality
-                and comfort, where each piece reflects our commitment to
-                exceptional design and functionality.
-              </p>
-            </section>
-            <button className="btn btn-primary">Get Started</button>
-          </div>
-        </div>
-      </div> */}
 
       <section
         data-aos="zoom-in"
@@ -149,4 +122,4 @@ const FirstProject = () => {
   );
 };
 
-export default FirstProject;
+export default FurnitureProject;

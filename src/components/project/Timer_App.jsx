@@ -3,7 +3,7 @@ import { PiGithubLogoBold } from "react-icons/pi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const EightProject = () => {
+const TimerAppProject = () => {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -115,4 +115,4 @@ const EightProject = () => {
   );
 };
 
-export default EightProject;
+export default TimerAppProject;

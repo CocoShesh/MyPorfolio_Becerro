@@ -94,7 +94,7 @@ export const projectList = [
     Project_name: "Country-App",
     project_description:
       "Build a user-friendly IP Address Tracker web app using React Js, integrating the IP Geolocation API by IPify and LeafletJS for interactive map functionality, ensuring seamless user experience across devices. ",
-    tech_stack: ["React JS", "LeaLazy Loading", "Tailwind CSS"],
+    tech_stack: ["React JS", "Lazy Loading", "Tailwind CSS"],
     github_link: "https://github.com/CocoShesh/IP-Address-Tracker",
     live_link: "https://country-app-v1-nard.netlify.app/",
   },

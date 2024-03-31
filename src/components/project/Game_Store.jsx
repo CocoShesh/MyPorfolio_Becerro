@@ -3,7 +3,7 @@ import { PiGithubLogoBold } from "react-icons/pi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const FifthProject = () => {
+const GameStoreProject = () => {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -113,4 +113,4 @@ const FifthProject = () => {
   );
 };
 
-export default FifthProject;
+export default GameStoreProject;

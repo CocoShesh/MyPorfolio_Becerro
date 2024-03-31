@@ -4,20 +4,22 @@ import Hero from "./hero/Hero";
 import SocialMediaAccounts from "./social_media/SocialMediaAccounts";
 import About from "./about/About";
 import Education from "./education/Education";
-import FirstProject from "./project/FirstProject";
-import SecondProject from "./project/SecondProject";
-import ThirdProject from "./project/ThirdProject";
-import FourthProject from "./project/FourthProject";
-import FifthProject from "./project/FifthProject";
-import SixthProject from "./project/SixthProject";
-import SeventhProject from "./project/SeventhProject";
-import EightProject from "./project/EightProject";
+import FurnitureProject from "./project/Furniture_Shop.jsx";
+import CinemaProject from "./project/Cinema.jsx";
+import WeatherAppProject from "./project/Weather_App";
+import TipCalculatorProject from "./project/Tip_Calculator";
+import GameStoreProject from "./project/Game_Store";
+import TodoAppProject from "./project/Todo_App";
+import CarRentalProject from "./project/Car_Rental.jsx";
+import TimerAppProject from "./project/Timer_App";
+import DictionaryAppProject from "./project/Dictionary_App.jsx";
+import CountryAppProject from "./project/Country_Appt.jsx";
+import MoreProjects from "./project/more/MoreProjects";
 import MyRepository from "./repository/MyRepository";
 import Contact from "./contact/Contact";
 import Footer from "./footer/Footer";
 import { FloatButton } from "antd";
-import NinethProject from "./project/NinethProject";
-import LastProject from "./project/LastProject";
+
 const Home = () => {
   return (
     <>
@@ -27,16 +29,17 @@ const Home = () => {
         <SocialMediaAccounts />
         <About />
         <Education />
-        <FirstProject />
-        <SecondProject />
-        <NinethProject />
-        <SixthProject />
-        <EightProject />
-        <SeventhProject />
-        <ThirdProject />
-        <FourthProject />
-        <FifthProject />
-        <LastProject />
+        <FurnitureProject />
+        <CinemaProject />
+        <DictionaryAppProject />
+        <TodoAppProject />
+        <TimerAppProject />
+        <CarRentalProject />
+        <WeatherAppProject />
+        <TipCalculatorProject />
+        <GameStoreProject />
+        <CountryAppProject />
+        <MoreProjects />
         <MyRepository />
         <Contact />
         <Footer />

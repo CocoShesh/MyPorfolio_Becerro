@@ -3,7 +3,7 @@ import { PiGithubLogoBold } from "react-icons/pi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const ThirdProject = () => {
+const WeatherAppProject = () => {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -116,4 +116,4 @@ const ThirdProject = () => {
   );
 };
 
-export default ThirdProject;
+export default WeatherAppProject;
