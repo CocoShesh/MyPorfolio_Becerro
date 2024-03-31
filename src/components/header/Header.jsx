@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Headroom from "react-headroom";
 import { Link, animateScroll as scroll } from "react-scroll";
-import Loader from "./Loader";
+import Loader from "../loader/Loader";
 const Header = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [loading, setLoading] = useState(false); // State for loader

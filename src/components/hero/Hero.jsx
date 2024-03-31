@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import TechStack from "./TechStack";
+import TechStack from "../techstack/TechStack";
 
 // Placeholder image URL
 const placeholderImage =

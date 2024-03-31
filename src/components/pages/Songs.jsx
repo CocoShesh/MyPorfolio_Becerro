@@ -7,7 +7,7 @@ import {
   getQueuePlaylist,
   getTopArtistUser,
   getPlayerTrack,
-} from "../Api/Spotify";
+} from "../../Api/Spotify";
 
 const Songs = () => {
   const [data, setData] = useState([]);

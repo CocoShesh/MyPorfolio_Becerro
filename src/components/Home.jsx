@@ -1,22 +1,22 @@
 import React from "react";
-import Header from "./Header";
-import Hero from "./Hero";
-import SocialMediaAccounts from "./SocialMediaAccounts";
-import About from "./About";
-import Education from "./Education";
-import FirstProject from "./FirstProject";
-import SecondProject from "./SecondProject";
-import ThirdProject from "./ThirdProject";
-import FourthProject from "./FourthProject";
-import FifthProject from "./FifthProject";
-import SixthProject from "./SixthProject";
-import SeventhProject from "./SeventhProject";
-import EightProject from "./EightProject";
-import MyRepository from "./MyRepository";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import Header from "./header/Header";
+import Hero from "./hero/Hero";
+import SocialMediaAccounts from "./social_media/SocialMediaAccounts";
+import About from "./about/About";
+import Education from "./education/Education";
+import FirstProject from "./project/FirstProject";
+import SecondProject from "./project/SecondProject";
+import ThirdProject from "./project/ThirdProject";
+import FourthProject from "./project/FourthProject";
+import FifthProject from "./project/FifthProject";
+import SixthProject from "./project/SixthProject";
+import SeventhProject from "./project/SeventhProject";
+import EightProject from "./project/EightProject";
+import MyRepository from "./repository/MyRepository";
+import Contact from "./contact/Contact";
+import Footer from "./footer/Footer";
 import { FloatButton } from "antd";
-import NinethProject from "./NinethProject";
+import NinethProject from "./project/NinethProject";
 const Home = () => {
   return (
     <>

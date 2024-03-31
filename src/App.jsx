@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Repository from "./components/pages/Repository";
 import Home from "./components/Home";
-import Loader from "./components/Loader";
+import Loader from "./components/loader/Loader";
 import Songs from "./components/pages/Songs";
 import JobExposure from "./components/pages/JobExposure";
 
