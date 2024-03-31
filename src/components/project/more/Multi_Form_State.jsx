@@ -3,7 +3,7 @@ import { PiGithubLogoBold } from "react-icons/pi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const MultiForm = () => {
+const MultiFormState = () => {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -116,4 +116,4 @@ const MultiForm = () => {
   );
 };
 
-export default MultiForm;
+export default MultiFormState;

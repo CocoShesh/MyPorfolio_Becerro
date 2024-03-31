@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import IpAddressTracker from "./Ip_Address_Tracker";
 import YoutubeClone from "./Youtube_Clone";
 import SocialLinksProfile from "./Social_Links_Profile";
-import MultiForm from "./Multi_Form_state";
+import MultiFormState from "./Multi_Form_state";
 import CornyJokeGenerator from "./Corny_Jokes_Generator";
 const MoreProjects = () => {
   const [toggleViewMore, setToggleViewMore] = useState(false);
@@ -18,7 +18,7 @@ const MoreProjects = () => {
           <IpAddressTracker />
           <YoutubeClone />
           <SocialLinksProfile />
-          <MultiForm />
+          <MultiFormState />
           <CornyJokeGenerator />
         </>
       )}
