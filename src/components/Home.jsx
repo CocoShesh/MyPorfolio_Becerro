@@ -14,7 +14,7 @@ import CarRentalProject from "./project/Car_Rental.jsx";
 import TimerAppProject from "./project/Timer_App";
 import DictionaryAppProject from "./project/Dictionary_App.jsx";
 import CountryAppProject from "./project/Country_Appt.jsx";
-import MoreProjects from "./project/more/MoreProjects";
+import MoreProjects from "./project/more/MoreProjects.jsx";
 import MyRepository from "./repository/MyRepository";
 import Contact from "./contact/Contact";
 import Footer from "./footer/Footer";
