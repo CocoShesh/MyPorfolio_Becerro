@@ -17,6 +17,7 @@ import Contact from "./contact/Contact";
 import Footer from "./footer/Footer";
 import { FloatButton } from "antd";
 import NinethProject from "./project/NinethProject";
+import LastProject from "./project/LastProject";
 const Home = () => {
   return (
     <>
@@ -35,7 +36,7 @@ const Home = () => {
         <ThirdProject />
         <FourthProject />
         <FifthProject />
-
+        <LastProject />
         <MyRepository />
         <Contact />
         <Footer />
