@@ -3,6 +3,7 @@ import { PiGithubLogoBold } from "react-icons/pi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import LazyLoad from "react-lazyload";
 const FurnitureProject = () => {
   useEffect(() => {
     AOS.init();
@@ -25,13 +26,15 @@ const FurnitureProject = () => {
 
       <section className="flex justify-center max-xl:hidden items-center  px-44 ">
         <a href="https://ecoshope.netlify.app/" target="_blank">
-          <img
-            data-aos="zoom-in"
-            data-aos-easing="ease-in-sine"
-            src="/first.jpg"
-            alt=""
-            className="w-[600px] h-[350px]  object-fill shadow-custom   rounded-md"
-          />
+          <LazyLoad height={350} once>
+            <img
+              data-aos="zoom-in"
+              data-aos-easing="ease-in-sine"
+              src="/first.jpg"
+              alt=""
+              className="w-[600px] h-[350px]  object-fill shadow-custom   rounded-md"
+            />
+          </LazyLoad>
         </a>
         <section
           data-aos="fade-left"
