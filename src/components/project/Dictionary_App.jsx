@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { PiGithubLogoBold } from "react-icons/pi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import AOS from "aos";
+import LazyLoad from "react-lazyload";
 const DictionaryAppProject = () => {
   useEffect(() => {
     AOS.init();
@@ -14,14 +15,16 @@ const DictionaryAppProject = () => {
             href="https://dictionary-app-created-nard.netlify.app"
             target="_blank"
           >
-            <img
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-              src="/dictionary.png"
-              alt=""
-              className="w-[600px] h-[350px]   shadow-custom rounded-md "
-            />
+            <LazyLoad height={350} threshold={0.88}>
+              <img
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                src="/dictionary.png"
+                alt=""
+                className="w-[600px] h-[350px]   shadow-custom rounded-md "
+              />
+            </LazyLoad>
           </a>
           <section
             data-aos="fade-left"

@@ -3,6 +3,7 @@ import { PiGithubLogoBold } from "react-icons/pi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import LazyLoad from "react-lazyload";
 const CountryAppProject = () => {
   useEffect(() => {
     AOS.init();
@@ -57,11 +58,13 @@ const CountryAppProject = () => {
             data-aos-easing="ease-in-sine"
           >
             <a href="https://country-app-v1-nard.netlify.app/" target="_blank">
-              <img
-                src="County_App_Preview.png"
-                alt=""
-                className="w-[600px] z-[-1]  h-[350px] shadow-custom rounded-md"
-              />
+              <LazyLoad height={350} threshold={0.88}>
+                <img
+                  src="County_App_Preview.png"
+                  alt=""
+                  className="w-[600px] z-[-1]  h-[350px] shadow-custom rounded-md"
+                />
+              </LazyLoad>
             </a>
           </section>
         </section>

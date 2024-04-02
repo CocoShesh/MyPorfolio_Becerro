@@ -3,6 +3,7 @@ import { PiGithubLogoBold } from "react-icons/pi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import LazyLoad from "react-lazyload";
 const YoutubeClone = () => {
   useEffect(() => {
     AOS.init();
@@ -58,14 +59,16 @@ const YoutubeClone = () => {
             href="https://youtube-clone-created-nard.netlify.app"
             target="_blank"
           >
-            <img
-              data-aos="zoom-in"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-              src="/youtube-preview.png"
-              alt=""
-              className="w-[600px] h-[350px] shadow-custom rounded-md"
-            />
+            <LazyLoad height={350} threshold={0.88}>
+              <img
+                data-aos="zoom-in"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                src="/youtube-preview.png"
+                alt=""
+                className="w-[600px] h-[350px] shadow-custom rounded-md"
+              />
+            </LazyLoad>
           </a>
         </section>
       </section>

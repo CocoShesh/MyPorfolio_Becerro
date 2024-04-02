@@ -3,6 +3,7 @@ import { PiGithubLogoBold } from "react-icons/pi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import LazyLoad from "react-lazyload";
 const CinemaProject = () => {
   useEffect(() => {
     AOS.init();
@@ -44,14 +45,16 @@ const CinemaProject = () => {
           </section>
         </section>
         <a href="https://movie-cinema-liart.vercel.app/" target="_blank">
-          <img
-            data-aos="zoom-in"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-            src="/preview.jpg"
-            alt=""
-            className="w-[600px] h-[350px] shadow-custom rounded-md"
-          />
+          <LazyLoad height={350} threshold={0.88}>
+            <img
+              data-aos="zoom-in"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              src="/preview.jpg"
+              alt=""
+              className="w-[600px] h-[350px] shadow-custom rounded-md"
+            />
+          </LazyLoad>
         </a>
       </section>
 

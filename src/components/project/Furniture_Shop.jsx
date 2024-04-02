@@ -26,7 +26,7 @@ const FurnitureProject = () => {
 
       <section className="flex justify-center max-xl:hidden items-center  px-44 ">
         <a href="https://ecoshope.netlify.app/" target="_blank">
-          <LazyLoad height={350} once>
+          <LazyLoad height={350} threshold={0.88}>
             <img
               data-aos="zoom-in"
               data-aos-easing="ease-in-sine"
