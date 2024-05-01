@@ -25,12 +25,12 @@ const FurnitureProject = () => {
       </section>
 
       <section className="flex justify-center max-xl:hidden items-center  px-44 ">
-        <a href="https://ecoshope.netlify.app/" target="_blank">
+        <a href="https://furnicraft-v1.netlify.app/" target="_blank">
           <LazyLoad height={350} threshold={0.88}>
             <img
               data-aos="zoom-in"
               data-aos-easing="ease-in-sine"
-              src="/first.jpg"
+              src="/first.png"
               alt=""
               className="w-[600px] h-[350px]  object-fill shadow-custom   rounded-md"
             />
@@ -60,13 +60,10 @@ const FurnitureProject = () => {
             </ul>
           </section>
           <section className="flex gap-5 justify-end mt-5 text-2xl">
-            <a
-              href=" https://github.com/CocoShesh/Furniture-shop"
-              target="_blank"
-            >
+            <a href=" https://github.com/CocoShesh/FurniCraft" target="_blank">
               <PiGithubLogoBold />
             </a>
-            <a href="https://ecoshope.netlify.app/" target="_blank">
+            <a href="https://furnicraft-v1.netlify.app/" target="_blank">
               <FaRegShareFromSquare />
             </a>
           </section>
@@ -87,10 +84,10 @@ const FurnitureProject = () => {
             Some Things I’ve Built
           </h1>
         </section>
-        <a href="https://ecoshope.netlify.app/" target="_blank">
+        <a href="https://furnicraft-v1.netlify.app/" target="_blank">
           <div className=" card mx-5 bg-[#112240] shadow-xl  rounded cursor-pointer">
             <figure>
-              <img src="/first.jpg" alt="Shoes" className=" object-cover" />
+              <img src="/first.png" alt="Shoes" className=" object-cover" />
             </figure>
             <div className="card-body  ">
               <p className="font-Mono  text-[#30d5da]">Featured Project</p>
@@ -108,12 +105,12 @@ const FurnitureProject = () => {
               </ul>
               <section className="flex gap-5 text-2xl  text-[#82b2d1]">
                 <a
-                  href=" https://github.com/CocoShesh/Furniture-shop"
+                  href=" https://github.com/CocoShesh/FurniCraft"
                   target="_blank"
                 >
                   <PiGithubLogoBold />
                 </a>
-                <a href="https://ecoshope.netlify.app/" target="_blank">
+                <a href="https://furnicraft-v1.netlify.app/" target="_blank">
                   <FaRegShareFromSquare />
                 </a>
               </section>
