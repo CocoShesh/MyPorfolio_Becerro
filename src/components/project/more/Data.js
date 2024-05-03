@@ -93,7 +93,7 @@ export const projects = [
     title: "Multi Step Form",
     liveLink: "https://multi-step-form-sample.netlify.app/",
     githubLink: " https://github.com/CocoShesh/Multi-Step-Form",
-    src: "/multi-step-preview.png",
+    src: "/Preview/Multi-Step-Preview.png",
     descriptions:
       "Build a multi-step form, closely matching the provided design, allowing users to progress through each step, review and edit their selections, and confirm their order",
     techStack: ["React Js", "Tailwind Css", "Zod", "Context Api"],
