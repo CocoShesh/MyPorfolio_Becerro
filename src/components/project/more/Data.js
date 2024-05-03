@@ -113,7 +113,7 @@ export const projects = [
     title: " Games Store",
     liveLink: "https://game-app-cocoshesh.vercel.app/",
     githubLink: "https://github.com/CocoShesh/Game-App",
-    src: "/games-preview.png",
+    src: "/Preview/Game-App-Preview.png",
     descriptions:
       "Discover the latest releases and timeless classics. Get ready to embark on thrilling journeys and experience gaming like never before. Start exploring and elevate your gaming experience today!",
     techStack: ["React Js", "Tailwind Css"],
