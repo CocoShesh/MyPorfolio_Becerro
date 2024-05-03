@@ -15,7 +15,7 @@ const About = () => {
         id="about"
       >
         <section className=" flex gap-3 2xl:mx-auto">
-          <span className=" font-Mono"> 02. </span>
+          <span> 02. </span>
           <h1 className="  font-bold text-[#ccd6f6]"> About Me. </h1>
         </section>
       </section>
