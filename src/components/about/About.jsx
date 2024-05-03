@@ -16,10 +16,10 @@ const About = () => {
       >
         <section className=" flex gap-3 2xl:mx-auto">
           <span className=" font-Mono"> 02. </span>
-          <h1 className=" font-Noto font-bold text-[#ccd6f6]"> About Me. </h1>
+          <h1 className="  font-bold text-[#ccd6f6]"> About Me. </h1>
         </section>
       </section>
-      <div className="hero  sm:px-32  font-bold font-Noto">
+      <div className="hero  sm:px-32  font-bold ">
         <div className="hero-content flex-col lg:flex-row gap-20 ">
           <img
             data-aos="fade-right"
@@ -35,7 +35,7 @@ const About = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            <p className="text-lg font-Noto text-justify text-[#67738e]">
+            <p className="text-lg  text-justify text-[#67738e]">
               As a fourth-year student with a foundational understanding of web
               development, seeking an internship opportunity where I can apply
               my current skills and gain hands-on experience in a professional
