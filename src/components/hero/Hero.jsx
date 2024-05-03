@@ -18,7 +18,6 @@ const Hero = () => {
     <>
       <div className="hero min-h-screen sm:px-32 font-bold font-Noto">
         <div className="hero-content flex-col lg:gap-28 lg:flex-row-reverse  ">
-          {/* Conditional rendering based on image load status */}
           {!imageLoaded && (
             <img
               src={placeholderImage}
@@ -27,7 +26,7 @@ const Hero = () => {
             />
           )}
           <img
-            src="/profile-pic.png"
+            src="/Images/profile-pic.png"
             alt="profile"
             className={`sm:max-w-sm xs:max-w-auto rounded-lg brightness-75 hover:brightness-100 ${
               imageLoaded ? "visible" : "hidden"
