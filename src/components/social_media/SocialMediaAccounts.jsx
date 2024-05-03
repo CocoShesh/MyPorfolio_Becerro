@@ -40,10 +40,7 @@ const SocialMediaAccounts = () => {
         <div className="h-20  border-[1px] border-[#378c84]"></div>
       </section>
       <section className=" flex  max-sm:hidden flex-col items-center fixed -right-12 bottom-1 gap-28 text-[#8892b0]">
-        <a
-          href={`mailto:${email}`}
-          className=" rotate-90  text-sm font-Mono  font-bold"
-        >
+        <a href={`mailto:${email}`} className=" rotate-90  text-sm   font-bold">
           {email}
         </a>
         <div className="h-20  border-[1px] border-[#378c84]"></div>
