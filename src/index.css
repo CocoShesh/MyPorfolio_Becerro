@@ -1,7 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* :root {
+  --background-color: #0a192f;
+  --header-color: #56ddc0;
+}
+
+[data-theme="light"] {
+  --background-color: #ffffff;
+  --header-color: #0a192f;
+} */
 
 body {
   background: #0a192f;
@@ -99,11 +110,12 @@ svg text {
   animation: stroke 5s infinite alternate;
   stroke-width: 2;
   stroke: #0f1b2d;
-  font-size: 8vw;
+  font-size: 8vw; /* Responsive font size using viewport width */
 }
 
+/* Add more media queries for different screen sizes if needed */
 @media (min-width: 768px) {
   .responsive-text {
-    font-size: 5vw;
+    font-size: 5vw; /* Adjust font size for larger screens */
   }
 }
