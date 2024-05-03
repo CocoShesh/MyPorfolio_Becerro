@@ -123,7 +123,7 @@ export const projects = [
     title: "Timer App",
     liveLink: "https://simple-timer-by-nard.netlify.app/",
     githubLink: "https://github.com/CocoShesh/Timer-App",
-    src: "/timer.png",
+    src: "/Preview/Timer-Preview.png",
     descriptions:
       " This sleek Timer app allows users to efficiently manage their time by providing essential timing features. Users can start, stop, and reset the timer, making it a handy tool for various activities. Whether you're working, studying, or simply keeping track of tasks, this Timer App has you covered.",
     techStack: ["React Js", "Tailwind Css"],
