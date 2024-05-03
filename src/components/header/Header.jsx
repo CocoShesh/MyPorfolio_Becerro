@@ -36,7 +36,7 @@ const Header = () => {
             </a>
           </div>
           <div className="navbar-end hidden lg:flex  w-full">
-            <ul className="p-2 menu-horizontal gap-10 items-center text-[#56ddc0] font-bold font-Mono">
+            <ul className="p-2 menu-horizontal gap-10 items-center text-[#56ddc0] font-bold ">
               <Link
                 to="main"
                 smooth={true}
@@ -132,7 +132,7 @@ const Header = () => {
               className="drawer-overlay "
               onClick={closeDrawer}
             ></label>
-            <ul className="menu p-4 w-80 min-h-full bg-[#0a192f] pl-24  text-[#56ddc0] font-bold font-Mono  text-xl pt-32 gap-5 ">
+            <ul className="menu p-4 w-80 min-h-full bg-[#0a192f] pl-24  text-[#56ddc0] font-bold   text-xl pt-32 gap-5 ">
               <Link to="main" smooth={true} onClick={closeDrawer}>
                 <li>01. Home</li>
               </Link>
