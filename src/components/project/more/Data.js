@@ -133,7 +133,7 @@ export const projects = [
     title: "Corny Jokes Generator",
     liveLink: "https://corny-joke-generator.vercel.app/",
     githubLink: "https://github.com/CocoShesh/Corny-Jokes-Generator/tree/main",
-    src: "/Corny-Jokes-Preview.png",
+    src: "/Preview/Corny-Jokes-Preview.png",
     descriptions:
       "Corny-Jokes-Generator is a whimsical project designed to bring laughter to users with its quirky algorithm that generates an endless array of light-hearted and amusing jokes. From puns to playful one-liners, it promises to be a delightful source of entertainment for all ages.",
     techStack: ["React Js", "Tailwind Css"],
