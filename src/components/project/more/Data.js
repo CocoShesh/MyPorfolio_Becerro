@@ -14,7 +14,7 @@ export const projects = [
     title: "Car Rental",
     liveLink: "https://luxury-cars-rental.netlify.app/",
     githubLink: "https://github.com/CocoShesh/Car-Rental-App ",
-    src: "/car-rental.jpg",
+    src: "/Preview/Car-Rental-Preview.jpg",
     descriptions:
       "Discover the latest releases and timeless classics. Get ready to embark on thrilling journeys and experience gaming like never before. Start exploring and elevate your gaming experience today!",
     techStack: ["React Js", "Tailwind Css"],
