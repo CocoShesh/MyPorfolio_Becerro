@@ -20,15 +20,12 @@ const Education = () => {
               data-aos-easing="ease-in-sine"
               className=" flex gap-3 2xl:mx-auto"
             >
-              <span className=" font-Mono"> 02. </span>
-              <h1 className=" font-Noto font-bold text-[#ccd6f6]">
-                {" "}
-                Educations.{" "}
-              </h1>
+              <span className=" "> 02. </span>
+              <h1 className="  font-bold text-[#ccd6f6]"> Educations. </h1>
             </section>
           </section>
           <section className="w-full items-center  flex justify-center">
-            <ul className="timeline w-1/2 timeline-snap-icon max-md:timeline-compact timeline-vertical font-Mono">
+            <ul className="timeline w-1/2 timeline-snap-icon max-md:timeline-compact timeline-vertical ">
               <li>
                 <div className="timeline-middle ">
                   <svg
@@ -50,9 +47,7 @@ const Education = () => {
                   data-aos-easing="ease-in-sine"
                   className="timeline-start md:text-end mb-10"
                 >
-                  <time className="font-mono italic text-[#64FFDA] ">
-                    2008-2014
-                  </time>
+                  <time className=" italic text-[#64FFDA] ">2008-2014</time>
                   <div className=" text-[#64FFDA]  text-xl  font-semibold">
                     Elementary
                   </div>
@@ -87,12 +82,8 @@ const Education = () => {
                   data-aos-easing="ease-in-sine"
                   className="timeline-end mb-10"
                 >
-                  <time className="font-mono italic text-[#64FFDA] ">
-                    2014-2018{" "}
-                  </time>
-                  <h1 className=" text-[#64FFDA] font-black  text-xl   ">
-                    High School
-                  </h1>
+                  <time className=" italic text-[#64FFDA] ">2014-2018 </time>
+                  <h1 className=" text-[#64FFDA]   text-xl   ">High School</h1>
                   <span className="text-[#4b9cd1]">
                     Muntinlupa Bussines High School Sucat Annex - A
                   </span>
@@ -125,10 +116,8 @@ const Education = () => {
                   data-aos-easing="ease-in-sine"
                   className="timeline-start md:text-end mb-10"
                 >
-                  <time className="font-mono italic text-[#64FFDA] ">
-                    2018-2020
-                  </time>
-                  <h1 className=" text-[#64FFDA] font-black  text-xl   ">
+                  <time className=" italic text-[#64FFDA] ">2018-2020</time>
+                  <h1 className=" text-[#64FFDA]   text-xl   ">
                     Senior High School
                   </h1>
                   <span className="text-[#4b9cd1]">
@@ -167,15 +156,12 @@ const Education = () => {
                   data-aos-easing="ease-in-sine"
                   className="timeline-end mb-10"
                 >
-                  <time className="font-mono italic text-[#64FFDA] ">
+                  <time className=" italic text-[#64FFDA] ">
                     2020 - Present
                   </time>
-                  <h1 className=" text-[#64FFDA] font-black  text-xl   ">
-                    College
-                  </h1>
+                  <h1 className=" text-[#64FFDA]   text-xl   ">College</h1>
                   <span className="text-[#4b9cd1]">
-                    {" "}
-                    Pamantasan Lungsod ng Muntinlupa{" "}
+                    Pamantasan Lungsod ng Muntinlupa
                   </span>
                   <p className="text-sm text-gray-500 mt-2">
                     Currently pursuing a degree in Bachelor of Science Major in
