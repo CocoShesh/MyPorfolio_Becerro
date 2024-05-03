@@ -25,7 +25,7 @@ const About = () => {
             data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
-            src="/second_pic.jpg"
+            src="/Images/second_pic.jpg"
             alt=""
             className="sm:max-w-sm xs:max-w-auto   rounded-lg  brightness-75 hover:brightness-100"
           />
