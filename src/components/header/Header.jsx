@@ -29,7 +29,7 @@ const Header = () => {
           <div className="navbar-start max-w-screen 2xl:w-2xl">
             <a href="/" onClick={scrollToTop}>
               <img
-                src="/logo2.png"
+                src="/Images/logo2.png"
                 alt=""
                 className="w-50 h-16 cursor-pointer lg:pl-10"
               />
