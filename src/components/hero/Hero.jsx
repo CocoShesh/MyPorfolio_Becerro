@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 import TechStack from "../techstack/TechStack";
 
-// Placeholder image URL
 const placeholderImage =
   "https://fakeimg.pl/600x400/ccd6f6/0a192f?text=Nard&font=bebas";
 
 const Hero = () => {
-  // State to track whether the image has loaded
   const [imageLoaded, setImageLoaded] = useState(false);
 
-  // Function to handle image load event
   const handleImageLoad = () => {
     setImageLoaded(true);
   };
