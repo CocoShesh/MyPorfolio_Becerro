@@ -24,7 +24,7 @@ export const projects = [
     title: " Dictionary App",
     liveLink: "https://dictionary-app-created-nard.netlify.app",
     githubLink: "https://github.com/CocoShesh/Dictionary-app",
-    src: "/dictionary.png",
+    src: "/Preview/Dictionary-Preview.png",
     descriptions:
       "Dictionary is a project where I practice working with APIs. Users can explore words, customize fonts and themes to their liking, and listen to word pronunciations, making it a comprehensive tool for language enthusiasts and learners alike.",
     techStack: ["React Js", "Tailwind Css", "Axios"],
