@@ -44,7 +44,7 @@ export const projects = [
     title: "Ip Address Tracker",
     liveLink: "https://simple-ip-address-tracker.netlify.app/",
     githubLink: "https://github.com/CocoShesh/IP-Address-Tracker",
-    src: "/IP-TRACKER-PREVIEW.png",
+    src: "/Preview/IP-Tracker-Preview.png",
     descriptions:
       "Build a user-friendly IP Address Tracker web app using React Js, integrating the IP Geolocation API by IPify and LeafletJS for interactive map functionality, ensuring seamless user experience across devices.",
     techStack: ["React Js", "Tailwind Css", "LeafletJS", "IP Geolocation"],
