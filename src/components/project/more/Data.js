@@ -74,7 +74,7 @@ export const projects = [
     title: "Country App",
     liveLink: "https://countries-nard.netlify.app/",
     githubLink: "https://github.com/CocoShesh/Country-App",
-    src: "/County_App_Preview.png",
+    src: "/Preview/County_App_Preview.png",
     descriptions:
       "Build a user-friendly IP Address Tracker web app using React Js, integrating the IP Geolocation API by IPify and LeafletJS for interactive map functionality, ensuring seamless user experience across devices. ",
     techStack: ["React Js", "Tailwind Css", "Lazy loading"],
