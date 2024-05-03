@@ -54,7 +54,7 @@ export const projects = [
     title: "Weather App",
     liveLink: "https://weather-app-nard.netlify.app/",
     githubLink: "https://github.com/CocoShesh/Weather_App",
-    src: "/Weather-Preview.png",
+    src: "/Preview/Weather-Preview.png",
     descriptions:
       "My weather app, utilizing weatherapi.com, provides current weather and weekly forecasts. offering toggling between Celsius and Fahrenheit, alongside a dark mode option for comfortable viewing in any lighting. ",
     techStack: ["React Js", "Tailwind Css", "Api"],
