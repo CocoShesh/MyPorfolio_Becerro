@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="hero min-h-screen sm:px-32 font-bold font-Noto">
+      <div className="hero min-h-screen sm:px-32 font-bold ">
         <div className="hero-content flex-col lg:gap-28 lg:flex-row-reverse  ">
           {!imageLoaded && (
             <img
@@ -31,11 +31,11 @@ const Hero = () => {
             onLoad={handleImageLoad}
           />
           <div>
-            <p className="text-3xl font-Mono pl-3">Hi, my name is</p>
-            <h1 className="text-6xl leading-normal text-[#ccd6f6]">
+            <p className="text-3xl max-sm:pt-5 max-sm:pb-5  ">Hi, my name is</p>
+            <h1 className="text-6xl max-sm:text-5xl leading-normal text-[#ccd6f6]">
               Glenard Becerro
             </h1>
-            <p className="py-6 text-[#7992b0] pt-7 ">
+            <p className="py-6 text-[#7992b0] pt-5 ">
               Passion-driven and dedicated to creating websites. I am eager to
               apply my extensive knowledge in web development to craft
               innovative and user-friendly online experiences.
