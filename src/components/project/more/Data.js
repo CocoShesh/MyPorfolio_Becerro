@@ -34,7 +34,7 @@ export const projects = [
     title: "Cinema",
     liveLink: "https://movie-cinema-liart.vercel.app/",
     githubLink: "https://github.com/CocoShesh/MovieCinema ",
-    src: "/preview.jpg",
+    src: "/Preview/Movie-Cinema-Preview.jpg",
     descriptions:
       "Welcome to Cinema! Immerse yourself in a world of cinematic wonders, where stories come alive and emotions unfold on the big screen.  Join us for an unforgettable experience filled with laughter, tears, and edge-of-your-seat moments",
     techStack: ["React Js", "Tailwind Css"],
