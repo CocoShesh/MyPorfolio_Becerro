@@ -19,6 +19,7 @@ import MyRepository from "./repository/MyRepository";
 import Contact from "./contact/Contact";
 import Footer from "./footer/Footer";
 import { FloatButton } from "antd";
+import Sample from "./project/Sample.jsx";
 
 const Home = () => {
   return (
@@ -29,7 +30,7 @@ const Home = () => {
         <SocialMediaAccounts />
         <About />
         <Education />
-        <FurnitureProject />
+        {/* <FurnitureProject />
         <CinemaProject />
         <DictionaryAppProject />
         <TodoAppProject />
@@ -39,7 +40,8 @@ const Home = () => {
         <TipCalculatorProject />
         <GameStoreProject />
         <CountryAppProject />
-        <MoreProjects />
+        <MoreProjects /> */}
+        <Sample />
         <MyRepository />
         <Contact />
         <Footer />
