@@ -103,7 +103,7 @@ export const projects = [
     title: "Tip Calculator",
     liveLink: "https://tip-calculator-app-tau.vercel.app/",
     githubLink: "https://github.com/CocoShesh/tip-calculator-app-main",
-    src: "/PREVIEW-3.png",
+    src: "/Preview/Tip-Calculator-Preview.png",
     descriptions:
       "A tip calculator helps determine the appropriate gratuity for a bill. Users input the total amount, select a tip percentage, and specify the number of people splitting the bill. The calculator computes the tip, adds it to the bill, and divides the total among the group. It simplifies fair tip calculation when dining out or sharing expenses.",
     techStack: ["Html", "Vanilla Css", "Javascript", "Api"],
