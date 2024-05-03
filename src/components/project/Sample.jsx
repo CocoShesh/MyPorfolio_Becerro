@@ -33,16 +33,20 @@ const Sample = () => {
                   isEven ? "text-left" : "text-right"
                 }  relative w-[600px] 2xl:w-[500px] h-auto`}
               >
-                <p className="font-Mono text-[#9ca7c6]">Featured Project</p>
-                <h1 className="font-Noto text-3xl font-bold text-[#64ffda]">
+                <p className=" text-[#9ca7c6]">Featured Project</p>
+                <h1 className=" text-3xl font-bold text-[#64ffda]">
                   {project.title}
                 </h1>
                 <section
                   className={`w-[600px] h-fit bg-[#112240] mt-5 p-5 absolute ${
                     isEven ? "left-0" : "right-0"
-                  } font-Mono`}
+                  } `}
                 >
-                  <p className="text-justify font-bold font-Mono text-orange-300">
+                  <p
+                    className={` font-bold text-sm  text-[#64ffda] tracking-wider leading-6 brightness-75  ${
+                      isEven ? "text-left" : "text-right"
+                    }`}
+                  >
                     {project.descriptions}
                   </p>
                 </section>
@@ -50,7 +54,7 @@ const Sample = () => {
                   <ul
                     className={`flex  ${
                       isEven ? "justify-start" : "justify-end"
-                    } gap-5 font-Mono uppercase text-[#9ca7c6]`}
+                    } gap-5  uppercase text-[#9ca7c6]`}
                   >
                     {project.techStack.map((stack, index) => {
                       return <li key={index}>{stack}</li>;
