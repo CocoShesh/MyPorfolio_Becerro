@@ -35,7 +35,7 @@ const Hero = () => {
             <h1 className="text-6xl max-sm:text-5xl leading-normal text-[#ccd6f6]">
               Glenard Becerro
             </h1>
-            <p className="py-6 text-[#7992b0] pt-5 ">
+            <p className="py-6 text-[#7992b0] pt-5 max-sm:text-lg ">
               Passion-driven and dedicated to creating websites. I am eager to
               apply my extensive knowledge in web development to craft
               innovative and user-friendly online experiences.
