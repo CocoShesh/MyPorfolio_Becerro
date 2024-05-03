@@ -143,7 +143,7 @@ export const projects = [
     title: " Youtube Clone",
     liveLink: "https://youtube-clone-created-nard.netlify.app",
     githubLink: "https://github.com/CocoShesh/youtube-client",
-    src: "/youtube-preview.png",
+    src: "/Preview/Youtube-Preview.png",
     descriptions:
       "  I built this platform to hone my skills, particularly tackling the challenge of designing a responsive sidebar that adapts to various screen sizes. Despite the initial hurdles, I successfully completed the project, refining my abilities along  the way.",
     techStack: ["React Js", "Tailwind Css", "Node Js", "Express Js", "MongoDB"],
