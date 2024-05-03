@@ -64,7 +64,7 @@ export const projects = [
     title: "Todo App",
     liveLink: "https://todo-app-nard.netlify.app/",
     githubLink: "https://github.com/CocoShesh/Todo-App",
-    src: "/desktop-preview.jpg",
+    src: "/Preview/Todo-App-Preview.jpg",
     descriptions:
       "This efficient Todo app empowers users to seamlessly organize their tasks by enabling them to add, complete, and delete todos.  Additionally, users can effortlessly filter tasks based on their status, switch between light and dark modes, and enjoy various other features for enhanced task management.",
     techStack: ["React Js", "Tailwind Css", "uuid", "Visual Studio Code"],
