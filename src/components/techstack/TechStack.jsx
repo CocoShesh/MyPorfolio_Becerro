@@ -18,19 +18,19 @@ const data = [
   },
 
   {
-    src: "/tailwind-css.svg",
+    src: "/TechStack/tailwind-css.svg",
     title: "Tailwind Css",
   },
   {
-    src: "/daisy-ui.svg",
+    src: "/TechStack/daisy-ui.svg",
     title: "Daisy UI",
   },
   {
-    src: "/bootstrap-4.svg",
+    src: "/TechStack/bootstrap-4.svg",
     title: "Bootstrap 4",
   },
   {
-    src: "/ant-d.svg",
+    src: "/TechStack/ant-d.svg",
     title: "ANT Design",
   },
   {
@@ -42,7 +42,7 @@ const data = [
     title: "Mysql",
   },
   {
-    src: "/mariadb.svg",
+    src: "/TechStack/mariadb.svg",
     title: "Maria Db",
   },
   {
@@ -54,11 +54,11 @@ const data = [
     title: "Node js",
   },
   {
-    src: "/postman.svg",
+    src: "/TechStack/postman.svg",
     title: "Postman",
   },
   {
-    src: "/python.svg",
+    src: "/TechStack/python.svg",
     title: "Python",
   },
 ];
