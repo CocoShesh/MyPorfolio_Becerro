@@ -4,7 +4,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import Loader from "../loader/Loader";
 const Header = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-  const [loading, setLoading] = useState(false); // State for loader
+  const [loading, setLoading] = useState(false);
   const toggleDrawer = () => {
     setIsDrawerOpen(!isDrawerOpen);
   };
@@ -14,11 +14,11 @@ const Header = () => {
   };
 
   const scrollToTop = () => {
-    setLoading(true); // Show loader when logo is clicked
+    setLoading(true);
     setTimeout(() => {
       scroll.scrollToTop();
-      setLoading(false); // Hide loader after scrolling
-    }, 5000); // Adjust timing as needed
+      setLoading(false);
+    }, 5000);
   };
 
   return (
