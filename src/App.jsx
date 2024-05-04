@@ -4,7 +4,6 @@ import Repository from "./pages/Repository";
 import Home from "./components/Home";
 import Loader from "./components/loader/Loader";
 import Songs from "./pages/Songs";
-import JobExposure from "./pages/JobExposure";
 
 function App() {
   const [loading, setLoading] = useState(true);
