@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Headroom from "react-headroom";
 import { Link, animateScroll as scroll } from "react-scroll";
 import Loader from "../loader/Loader";
+import useAOS from "../../hooks/UseAnimations";
 const Header = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -21,17 +22,19 @@ const Header = () => {
     }, 5000);
   };
 
+  useAOS();
+
   return (
     <>
       {loading && <Loader />}
       <Headroom>
         <div className="navbar bg-[#0a192f] border-b  border-slate-800 h-20  ">
-          <div className="navbar-start max-w-screen 2xl:w-2xl">
+          <div className="navbar-start max-w-screen 2xl:w-2xl w-auto">
             <a href="/" onClick={scrollToTop}>
               <img
                 src="/Images/logo2.png"
                 alt=""
-                className="w-50 h-16 cursor-pointer lg:pl-10"
+                className="w-[120px]  max-lg:w-20 h-16 cursor-pointer lg:pl-10"
               />
             </a>
           </div>
@@ -83,7 +86,7 @@ const Header = () => {
                   target="_blank"
                   onClick={closeDrawer}
                 >
-                  <button className="border-white border-2 h-10 w-20 ">
+                  <button className="border-white border h-10 w-20 ">
                     Resume
                   </button>
                 </a>{" "}
@@ -118,14 +121,19 @@ const Header = () => {
         </div>
       </Headroom>
       {isDrawerOpen && (
-        <div className="drawer z-20">
+        <div className="drawer z-20 xl:hidden">
           <input
             id="my-drawer"
             type="checkbox"
             className="drawer-toggle"
             checked={isDrawerOpen}
           />
-          <div className="drawer-side overflow-hidden ">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            className="drawer-side overflow-hidden "
+          >
             <label
               htmlFor="my-drawer"
               aria-label="close sidebar"
