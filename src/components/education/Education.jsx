@@ -51,9 +51,10 @@ const Education = () => {
             className="flex sm:px-36 gap-3 text-3xl py-16 max-sm:pl-5 "
             id="education"
           >
-            <section className="flex gap-3 ">
+            <section className="flex items-center gap-3 ">
               <span className=""> 03. </span>
               <h1 className="font-bold text-[#ccd6f6]"> Education. </h1>
+              <div className="w-[300px] h-0 max-sm:w-[200px] border border-[#233554]"></div>
             </section>
           </section>
           <section className="w-full items-center flex justify-center">
