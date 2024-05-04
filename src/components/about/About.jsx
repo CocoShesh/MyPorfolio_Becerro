@@ -12,9 +12,10 @@ const About = () => {
             className="flex items-center sm:px-36 gap-3 text-3xl py-16 max-sm:pl-5 "
             id="about"
           >
-            <section className="flex gap-3">
+            <section className="flex gap-3 items-center">
               <span> 02. </span>
               <h1 className="font-bold text-[#ccd6f6]"> About Me. </h1>
+              <div className="w-[300px] h-0 max-sm:w-[200px] border border-[#233554]"></div>
             </section>
           </section>
 
