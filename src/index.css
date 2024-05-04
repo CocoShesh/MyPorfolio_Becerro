@@ -100,12 +100,11 @@ svg text {
   animation: stroke 5s infinite alternate;
   stroke-width: 2;
   stroke: #0f1b2d;
-  font-size: 8vw; /* Responsive font size using viewport width */
+  font-size: 8vw;
 }
 
-/* Add more media queries for different screen sizes if needed */
 @media (min-width: 768px) {
   .responsive-text {
-    font-size: 5vw; /* Adjust font size for larger screens */
+    font-size: 5vw;
   }
 }
