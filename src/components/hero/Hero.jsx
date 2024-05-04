@@ -31,7 +31,9 @@ const Hero = () => {
             onLoad={handleImageLoad}
           />
           <div>
-            <p className="text-3xl max-sm:pt-5 max-sm:pb-5  ">Hi, my name is</p>
+            <p className="text-3xl max-sm:pt-5 max-sm:pb-5 text-[#ccd6f6]  ">
+              Hi, my name is
+            </p>
             <h1 className="text-6xl max-sm:text-5xl leading-normal text-[#ccd6f6]">
               Glenard Becerro
             </h1>
