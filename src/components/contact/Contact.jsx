@@ -1,11 +1,16 @@
 import React from "react";
-
+import useAOS from "../../hooks/UseAnimations";
 const Contact = () => {
   const email = "glenardrefamonte1@gmail.com";
-
+  useAOS();
   return (
     <>
-      <section className=" max-w-screen flex justify-center items-center ">
+      <section
+        data-aos="zoom-in"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        className="  max-w-screen flex justify-center items-center "
+      >
         <section
           className="h-screen w-[500px] mx-5  flex flex-col justify-center items-center"
           id="contact"
