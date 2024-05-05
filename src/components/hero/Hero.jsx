@@ -1,20 +1,24 @@
 import React, { useState } from "react";
 import TechStack from "../techstack/TechStack";
-
+import useAOS from "../../hooks/UseAnimations";
 const placeholderImage =
   "https://fakeimg.pl/600x400/ccd6f6/0a192f?text=Nard&font=bebas";
 
 const Hero = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
-
   const handleImageLoad = () => {
     setImageLoaded(true);
   };
-
+  useAOS();
   return (
     <>
       <div className="hero min-h-screen sm:px-32 font-bold ">
-        <div className="hero-content flex-col lg:gap-28 lg:flex-row-reverse  ">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          className="hero-content flex-col lg:gap-28 lg:flex-row-reverse  "
+        >
           {!imageLoaded && (
             <img
               src={placeholderImage}
@@ -30,7 +34,11 @@ const Hero = () => {
             }`}
             onLoad={handleImageLoad}
           />
-          <div>
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <p className="text-3xl max-sm:pt-5 max-sm:pb-5 text-[#ccd6f6]  ">
               Hi, my name is
             </p>
