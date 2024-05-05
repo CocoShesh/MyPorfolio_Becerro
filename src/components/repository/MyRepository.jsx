@@ -6,7 +6,7 @@ import { SiExpertsexchange } from "react-icons/si";
 const MyRepository = () => {
   return (
     <>
-      <section className=" mt-20 pt-10 grid gap-20 xl:grid-cols-2 lg:grid-cols-1 w-full 2xl:grid-cols-3 2xl:px-64 max-sm:px-5 px-44  ">
+      <section className=" mt-20 pt-10 grid gap-20 xl:grid-cols-2 lg:grid-cols-1 w-full 2xl:grid-cols-3 2xl:px-[20rem] max-sm:px-5 px-44  2xl:gap-10 ">
         <div className="h-[200px]  p-10 bg-[#112240] rounded-2xl   uppercase text-sm">
           <Link to="/repository">
             <h1 className=" leading-[4rem] font-bold  tracking-widest text-xl">
