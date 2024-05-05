@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Headroom from "react-headroom";
 import { Link, animateScroll as scroll } from "react-scroll";
 import Loader from "../loader/Loader";
@@ -23,6 +23,16 @@ const Header = () => {
   };
 
   useAOS();
+
+  useEffect(() => {
+    const body = document.querySelector("body");
+    if (body) {
+      body.style.overflow = "hidden";
+      return () => {
+        body.style.overflow = "auto";
+      };
+    }
+  }, []);
 
   return (
     <>
