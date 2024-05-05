@@ -8,7 +8,7 @@ import MyRepository from "./repository/MyRepository";
 import Contact from "./contact/Contact";
 import Footer from "./footer/Footer";
 import { FloatButton } from "antd";
-import Sample from "./project/Sample.jsx";
+import Projects from "./project/Projects.jsx";
 
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
         <SocialMediaAccounts />
         <About />
         <Education />
-        <Sample />
+        <Projects />
         <MyRepository />
         <Contact />
         <Footer />
