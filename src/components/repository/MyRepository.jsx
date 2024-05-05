@@ -29,10 +29,6 @@ const MyRepository = () => {
           </section>
         </div>
 
-        <p className="text-[#76849c] font-bold">
-          {" "}
-          Let's get down! See If our musical tastes are a match mace in audio
-        </p>
         <section className="flex  h-20 mr-auto">
           <BiLogoSpotify className="text-[#ccd6f6]" />
         </section>
