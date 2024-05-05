@@ -29,7 +29,6 @@ const MyRepository = () => {
           </section>
         </div>
 
-        <BiLogoSpotify className="text-[#ccd6f6]" />
         <div
           data-aos="fade-left"
           data-aos-offset="500"
