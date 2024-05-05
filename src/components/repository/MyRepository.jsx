@@ -29,25 +29,18 @@ const MyRepository = () => {
           </section>
         </div>
 
-        <div
-          data-aos="zoom-in"
-          data-aos-offset="500"
-          data-aos-easing="ease-in-sine"
-          className="h-[200px]  p-10 bg-[#112240] rounded-2xl   uppercase text-sm"
-        >
-          <Link to="/songs">
-            <h1 className=" leading-[4rem] font-bold  tracking-widest text-xl">
-              Songs
-            </h1>
-          </Link>
-          <p className="text-[#76849c] font-bold">
-            {" "}
-            Let's get down! See If our musical tastes are a match mace in audio
-          </p>
-          <section className="flex  h-20 mr-auto">
-            <BiLogoSpotify className="text-[#ccd6f6]" />
-          </section>
-        </div>
+        <Link to="/songs">
+          <h1 className=" leading-[4rem] font-bold  tracking-widest text-xl">
+            Songs
+          </h1>
+        </Link>
+        <p className="text-[#76849c] font-bold">
+          {" "}
+          Let's get down! See If our musical tastes are a match mace in audio
+        </p>
+        <section className="flex  h-20 mr-auto">
+          <BiLogoSpotify className="text-[#ccd6f6]" />
+        </section>
         <div
           data-aos="fade-left"
           data-aos-offset="500"
