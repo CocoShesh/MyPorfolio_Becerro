@@ -29,11 +29,6 @@ const MyRepository = () => {
           </section>
         </div>
 
-        <Link to="/songs">
-          <h1 className=" leading-[4rem] font-bold  tracking-widest text-xl">
-            Songs
-          </h1>
-        </Link>
         <p className="text-[#76849c] font-bold">
           {" "}
           Let's get down! See If our musical tastes are a match mace in audio
