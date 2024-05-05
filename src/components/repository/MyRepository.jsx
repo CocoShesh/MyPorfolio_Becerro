@@ -29,9 +29,7 @@ const MyRepository = () => {
           </section>
         </div>
 
-        <section className="flex  h-20 mr-auto">
-          <BiLogoSpotify className="text-[#ccd6f6]" />
-        </section>
+        <BiLogoSpotify className="text-[#ccd6f6]" />
         <div
           data-aos="fade-left"
           data-aos-offset="500"
