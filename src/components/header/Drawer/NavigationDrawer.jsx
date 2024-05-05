@@ -1,15 +1,5 @@
-import React, { useEffect } from "react";
 import { Link } from "react-scroll";
 const NavigationDrawer = ({ isDrawerOpen, closeDrawer }) => {
-  useEffect(() => {
-    const body = document.querySelector("body");
-    if (body) {
-      body.style.overflow = isDrawerOpen ? "hidden" : "auto";
-      return () => {
-        body.style.overflow = "auto";
-      };
-    }
-  }, [isDrawerOpen]);
   return (
     <>
       {isDrawerOpen && (
