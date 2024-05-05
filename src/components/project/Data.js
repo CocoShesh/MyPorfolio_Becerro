@@ -52,7 +52,7 @@ export const projects = [
   {
     id: 6,
     title: "Weather App",
-    liveLink: "https://weather-app-nard.netlify.app/",
+    liveLink: "https://weather-whimsy-app.netlify.app/",
     githubLink: "https://github.com/CocoShesh/Weather_App",
     src: "/Preview/Weather-Preview.png",
     descriptions:
@@ -62,7 +62,7 @@ export const projects = [
   {
     id: 7,
     title: "Todo App",
-    liveLink: "https://todo-app-nard.netlify.app/",
+    liveLink: "https://todo-app-cocoshesh.vercel.app/",
     githubLink: "https://github.com/CocoShesh/Todo-App",
     src: "/Preview/Todo-App-Preview.jpg",
     descriptions:
@@ -72,7 +72,7 @@ export const projects = [
   {
     id: 8,
     title: "Country App",
-    liveLink: "https://countries-nard.netlify.app/",
+    liveLink: "https://country-app-v1-nard.netlify.app/",
     githubLink: "https://github.com/CocoShesh/Country-App",
     src: "/Preview/County_App_Preview.png",
     descriptions:
