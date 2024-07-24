@@ -36,13 +36,20 @@ const About = () => {
                 data-aos-easing="ease-in-sine"
               >
                 <p className="text-[16px] 2xl:text-lg indent-10 text-justify text-[#67738e]">
-                  As a fourth-year student deeply passionate about web
-                  development, I am currently seeking a job opportunity to apply
-                  and further develop my skills in a professional environment.
-                  With a solid foundation nurtured through academic coursework
-                  and self-directed learning from diverse resources, such as
-                  YouTube videos, tutorials, and documentation, I am equipped
-                  with a versatile toolkit to tackle challenges in the field.
+                  As a graduate of a Bachelor of Science in Information I am
+                  deeply passionate about web development and am currently
+                  seeking a job opportunity to apply and further develop my
+                  skills in a professional environment. With a solid foundation
+                  nurtured through academic coursework and self-directed
+                  learning from diverse resources, such as YouTube video*
+                  tutorials, and documentation I am equipped with a versatile
+                  toolkit to tackle challenges in the field. Driven by curiosity
+                  and a hunger for I am enthusiastic about applying my knowledge
+                  to real-world projects and collaborating with experienced
+                  professionals. My goal is not only to enhance my technical
+                  proficiency but also to make a tangible impact within the
+                  organization. leveraging creativity and problem-solving skills
+                  to deliver innovative solutions.
                 </p>
                 <br />
                 <p className="text-[16px] 2xl:text-lg indent-10 text-justify text-[#67738e]">
