@@ -1,12 +1,12 @@
 export const projects = [
   {
     id: 1,
-    title: "Furniture Shop",
+    title: "Furnicraft",
     liveLink: "https://furnicraft-v1.netlify.app/",
     githubLink: "https://github.com/CocoShesh/FurniCraft",
     src: "/Preview/Furniture-Preview.png",
     descriptions:
-      " A virtual furniture shop providing an extensive collection of  handcrafted furniture pieces, blending modern aesthetics withmtimeless craftsmanship. Immerse yourself in a world of quality and comfort, where each piece reflects our commitment to exceptional design and functionality.",
+      " a virtual shop offering a diverse range of high-quality furniture, skincare products, electronics, and kitchen essentials all in one place. Our curated selection blends style and functionality to enhance your lifestyle and make shopping effortless.",
     techStack: ["React Js", "Tailwind Css"],
   },
   {
