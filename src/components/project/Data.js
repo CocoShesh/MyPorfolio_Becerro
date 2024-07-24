@@ -6,7 +6,7 @@ export const projects = [
     githubLink: "https://github.com/CocoShesh/FurniCraft",
     src: "/Preview/Furniture-Preview.png",
     descriptions:
-      " a virtual shop offering a diverse range of high-quality furniture, skincare products, electronics, and kitchen essentials all in one place. Our curated selection blends style and functionality to enhance your lifestyle and make shopping effortless.",
+      "A virtual shop offering a diverse range of high-quality furniture, skincare products, electronics, and kitchen essentials all in one place. Our curated selection blends style and functionality to enhance your lifestyle and make shopping effortless.",
     techStack: ["React Js", "Tailwind Css"],
   },
   {
@@ -16,7 +16,7 @@ export const projects = [
     githubLink: "https://github.com/CocoShesh/Car-Rental-App ",
     src: "/Preview/Car-Rental-Preview.jpg",
     descriptions:
-      "Discover the latest releases and timeless classics. Get ready to embark on thrilling journeys and experience gaming like never before. Start exploring and elevate your gaming experience today!",
+      "Discover seamless mobility with our car rental service. Choose from a variety of high-quality vehicles to suit your needs and enjoy a smooth, convenient driving experience wherever you go.",
     techStack: ["React Js", "Tailwind Css"],
   },
   {
